@@ -41,12 +41,11 @@ This diagram defines the interactions between the user and the system, describin
 
 ## 🏛️ UML Class Diagram
 
-> 🚧 **In Progress**
+This diagram describes the domain model, including classes, attributes, methods, and relationships between the main business entities.
 
-This diagram will describe the domain model, including classes, attributes, methods, and relationships between the main business entities.
+![UML Class Diagram](../pictures/CLASS_DIAGRAM.png)
 
 ---
-
 ## 🗄️ Entity Relationship Diagram (ERD)
 
 > 🚧 **In Progress**
