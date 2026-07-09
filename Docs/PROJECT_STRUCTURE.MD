@@ -35,7 +35,7 @@ The following diagrams describe the architecture and design of the system.
 
 This diagram defines the interactions between the user and the system, describing the main functionalities available in the application.
 
-![Use Case Diagram](../pictures/CASOS_DE_USO.png)
+![Use Case Diagram](../pictures/USE_CASES.png)
 
 ---
 
