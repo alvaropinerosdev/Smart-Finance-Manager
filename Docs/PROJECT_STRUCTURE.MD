@@ -46,8 +46,9 @@ This diagram describes the domain model, including classes, attributes, methods,
 ![UML Class Diagram](../pictures/CLASS_DIAGRAM.png)
 
 ---
+
 ## 🗄️ Entity Relationship Diagram (ERD)
 
-> 🚧 **In Progress**
+This diagram represents the database structure, including entities, attributes, primary keys (PK), foreign keys (FK), and the relationships between them.
 
-This diagram will represent the database structure, including entities, relationships, primary keys, and foreign keys.
+![Entity Relationship Diagram](../pictures/ERD_DIAGRAM.PNG)
