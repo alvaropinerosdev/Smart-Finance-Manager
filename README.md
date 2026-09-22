@@ -109,3 +109,93 @@ The system must:
 - Provide reproducible development and execution environments.
 - Handle application errors without compromising stored financial data.
 - Maintain sufficient documentation to support installation, development, and future maintenance.
+
+## Project Scope
+
+The project scope defines the boundaries of version 1.0 of SMART_FINANCE_MANAGER. This version is intended as a foundational development stage focused on implementing and validating the core functionality of the application.
+
+### Version 1.0 Scope
+
+Version 1.0 will be a console-based application focused on the fundamental management and processing of personal financial information.
+
+The initial version will include:
+
+- Creation, modification, and deletion of financial records.
+
+- Storage and retrieval of financial information using PostgreSQL.
+
+- Categorization of income and expenses.
+
+- Balance and basic financial calculations.
+
+- Historical financial data management.
+
+- Basic financial statistics and analysis.
+
+- Creation and tracking of financial goals.
+
+- Export of financial data to Excel.
+
+- Automated testing of core application functionality.
+
+- Docker-based development environment.
+
+- Modular project architecture designed to support future development.
+
+Version 1.0 will be developed as a console-based application and will not include a graphical user interface or web interface. The application will be designed to run in a controlled environment and may be deployed on other computers for development, testing, or personal use.
+
+This version is intended for development, learning, testing, and validation of the application's core architecture and functionality. It is not intended to be released as a commercial product or deployed for public use.
+
+### Outside the Scope of Version 1.0
+
+The following are intentionally excluded from the initial version:
+
+- Graphical user interfaces.
+
+- Web interfaces.
+
+- Mobile applications.
+
+- AI-assisted financial analysis or recommendations.
+
+- Direct integration with bank accounts or financial institutions.
+
+- Automatic retrieval of transactions from external financial services.
+
+- Execution of payments, transfers, investments, or other financial transactions.
+
+- Professional financial advisory services.
+
+- Tax filing or automatic tax submission.
+
+- Credit approval or lending services.
+
+- Real-time financial market operations.
+
+- Multi-user or shared financial management.
+
+- Public or commercial deployment.
+
+### Future Scope
+
+Future versions may expand the application with:
+
+- Graphical or web-based interfaces.
+
+- AI-assisted financial analysis and recommendations.
+
+- Bank and financial institution integrations.
+
+- Automatic transaction synchronization.
+
+- Advanced budgeting and financial forecasting.
+
+- Automated notifications and reminders.
+
+- Mobile applications.
+
+- Multi-user financial management.
+
+- Additional financial services and integrations.
+
+The scope may evolve as the project progresses based on technical feasibility, development experience, and the requirements identified during subsequent versions.
