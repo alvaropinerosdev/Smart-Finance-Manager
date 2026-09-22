@@ -80,3 +80,32 @@ By developing SMART_FINANCE_MANAGER, I aim to gain experience in:
 - **API development** — Gain practical experience in building and consuming application interfaces as the project evolves.
 - **AI-assisted development** — Learn how to effectively use AI tools for code generation while reviewing, testing, debugging, and improving the generated code.
 - **Software development practices** — Improve problem-solving, debugging, documentation, code organization, and iterative development skills.
+
+## Requirements
+
+The following requirements define the conditions that SMART_FINANCE_MANAGER must satisfy during its development.
+
+### Functional Requirements
+
+The system must:
+
+- Allow users to create, modify, and delete their financial records.
+- Maintain a consistent relationship between financial records and their corresponding categories.
+- Calculate financial balances and summaries from the stored data.
+- Preserve historical financial information for subsequent analysis.
+- Allow users to define financial goals and maintain their progress over time.
+- Generate financial information in a format suitable for external analysis or storage.
+- Use stored financial data as the basis for automated analysis and recommendations.
+
+### Non-Functional Requirements
+
+The system must:
+
+- Maintain data consistency and integrity during normal application operations.
+- Protect stored financial information against unauthorized access.
+- Provide predictable and reliable behavior when processing user data.
+- Be structured so that individual components can be modified or extended without unnecessary changes to unrelated components.
+- Include automated tests for critical application behavior.
+- Provide reproducible development and execution environments.
+- Handle application errors without compromising stored financial data.
+- Maintain sufficient documentation to support installation, development, and future maintenance.
