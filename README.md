@@ -19,3 +19,23 @@ As a consequence, the lack of consistent financial tracking can lead to a limite
 Furthermore, when financial tracking is perceived as a repetitive and unappealing task, people may become less motivated to maintain financial management habits over time.
 
 Therefore, there is a problem related to the difficulty of maintaining consistent personal financial management, particularly for people with variable income, due to the time and effort required to record, understand, and analyze their financial behavior.
+
+## Solution
+
+SMART_FINANCE_MANAGER aims to provide a simple and interactive way to manage personal finances by reducing the effort required to record, understand, and analyze financial activity.
+
+The application will allow users to record their income and expenses, visualize their financial activity, monitor their progress toward financial goals, and use the resulting data to support better financial decision-making.
+
+The project also aims to make financial management more engaging by providing clear visualizations and an interactive experience, encouraging users to maintain consistent financial tracking habits over time.
+
+## Core Features
+
+- Income and expense tracking
+- Financial activity visualization
+- Spending and income statistics
+- Financial goal management
+- Financial data analysis
+- AI-assisted financial recommendations
+- Easy personal finance management
+- Financial data export to Excel
+- Cloud-based access to financial information
