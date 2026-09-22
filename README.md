@@ -39,3 +39,25 @@ The project also aims to make financial management more engaging by providing cl
 - Easy personal finance management
 - Financial data export to Excel
 - Cloud-based access to financial information
+
+## Technologies
+
+### Core Technologies
+
+- **Python** — Main programming language used to develop the application.
+- **PostgreSQL** — Relational database used to store and manage financial data.
+- **Git** — Version control system used to track changes throughout the development process.
+- **GitHub** — Platform used to host the repository and manage the project's source code.
+
+### Testing
+
+- **pytest** — Testing framework used to verify application behavior and ensure code reliability.
+
+### Development & Deployment
+
+- **Docker** — Used to create consistent and reproducible development environments.
+
+### AI-Assisted Development
+
+AI tools are used throughout the development process to assist with code generation and implementation. Generated code is reviewed, tested, and corrected manually to ensure that it meets the project's requirements and quality standards.
+
