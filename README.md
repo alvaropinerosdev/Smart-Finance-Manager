@@ -61,3 +61,22 @@ The project also aims to make financial management more engaging by providing cl
 
 AI tools are used throughout the development process to assist with code generation and implementation. Generated code is reviewed, tested, and corrected manually to ensure that it meets the project's requirements and quality standards.
 
+## Learning Objectives
+
+This project is designed to strengthen practical software development skills through the design, implementation, testing, and deployment of a complete application.
+
+By developing SMART_FINANCE_MANAGER, I aim to gain experience in:
+
+- **Python development** — Strengthen programming skills and apply software design principles in a real project.
+- **Object-Oriented Programming** — Design and organize application components using classes, objects, and appropriate abstractions.
+- **Database management** — Learn how to design, connect, query, and manage a PostgreSQL database from Python.
+- **Software architecture** — Understand how to structure a maintainable application and separate its responsibilities into appropriate components.
+- **Scalability and maintainability** — Learn how to design the project structure and components so the application can grow and incorporate new features without requiring major structural changes.
+- **Documentation** — Learn how to create clear and organized technical documentation that makes the project easier to understand, maintain, contribute to, and scale in the future.
+- **Git and GitHub workflows** — Practice version control, meaningful commits, branching, repository management, and project history.
+- **Testing** — Learn how to write and maintain automated tests using pytest.
+- **Docker** — Learn how to containerize the application and create reproducible development environments.
+- **Data analysis and visualization** — Learn how to transform financial data into useful statistics and visualizations.
+- **API development** — Gain practical experience in building and consuming application interfaces as the project evolves.
+- **AI-assisted development** — Learn how to effectively use AI tools for code generation while reviewing, testing, debugging, and improving the generated code.
+- **Software development practices** — Improve problem-solving, debugging, documentation, code organization, and iterative development skills.
