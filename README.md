@@ -140,7 +140,13 @@ The initial version will include:
 
 - Docker-based development environment.
 
+- Modification History.
+
 - Modular project architecture designed to support future development.
+
+- Makes goals.
+
+- Financial Reports.
 
 Version 1.0 will be developed as a console-based application and will not include a graphical user interface or web interface. The application will be designed to run in a controlled environment and may be deployed on other computers for development, testing, or personal use.
 
