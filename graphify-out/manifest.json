@@ -1,0 +1,20 @@
+{
+  "Docs/DataBase.md": {
+    "mtime": 1790565581.2327044,
+    "seen": 1790617029.2468348,
+    "ast_hash": "9ac9e3859604cee30437db0432eaa536",
+    "semantic_hash": "9ac9e3859604cee30437db0432eaa536"
+  },
+  "README.md": {
+    "mtime": 1790305797.660836,
+    "seen": 1790617029.2468348,
+    "ast_hash": "c4e4508bf09a73562ac03ca37b7d1b88",
+    "semantic_hash": "c4e4508bf09a73562ac03ca37b7d1b88"
+  },
+  "Docs/Images/database_uml.png": {
+    "mtime": 1790564935.587065,
+    "seen": 1790617029.2468348,
+    "ast_hash": "8805af9c87279504bfc8550042154969",
+    "semantic_hash": "8805af9c87279504bfc8550042154969"
+  }
+}
