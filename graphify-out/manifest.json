@@ -1,9 +1,9 @@
 {
   "Docs/DataBase.md": {
-    "mtime": 1790565581.2327044,
-    "seen": 1790617029.2468348,
-    "ast_hash": "9ac9e3859604cee30437db0432eaa536",
-    "semantic_hash": "9ac9e3859604cee30437db0432eaa536"
+    "mtime": 1790693049.138551,
+    "seen": 1790698816.5533235,
+    "ast_hash": "b68d6adaba6424faaa6b3db541e8830b",
+    "semantic_hash": ""
   },
   "README.md": {
     "mtime": 1790305797.660836,
@@ -16,5 +16,23 @@
     "seen": 1790617029.2468348,
     "ast_hash": "8805af9c87279504bfc8550042154969",
     "semantic_hash": "8805af9c87279504bfc8550042154969"
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1790618291.9895248,
+    "seen": 1790698816.5533235,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1790618291.9905126,
+    "seen": 1790698816.5533235,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "Docs/Architecture.md": {
+    "mtime": 1790698494.6303482,
+    "seen": 1790698816.5533235,
+    "ast_hash": "594ec3355dd88e33178b391588602dd5",
+    "semantic_hash": ""
   }
 }
