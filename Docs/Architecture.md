@@ -39,3 +39,58 @@ src/
 
 `container.py` is excluded from the current definition and will be evaluated later, once the dependency management strategy has been defined.
 
+## 3. Components
+
+### 3.1 Logic
+
+`logic/` contains the core of the system and represents the domain logic of Smart Finance Manager.
+
+This layer must be independent of PostgreSQL and persistence details.
+
+```text
+logic/
+├── entities/
+├── rules/
+└── calculations/
+```
+
+### `entities/`
+
+Contains the domain entities implemented using object-oriented programming.
+
+The entities represent the main objects of the system.
+
+They include:
+
+```text
+User
+Category
+FinancialRecord
+Income
+Expense
+Goal
+Contribution
+FinancialReport
+ModificationHistory
+```
+
+`FinancialRecord` is the base class from which the following classes derive:
+
+```text
+FinancialRecord
+├── Income
+└── Expense
+```
+
+The entities belong to the domain and must not directly depend on PostgreSQL.
+
+---
+
+### `rules/`
+
+Contains the business rules of the system.
+
+Its responsibility is to represent the conditions that must be satisfied for domain operations to be valid.
+
+Business rules belong to `logic/` and must not depend on SQL queries or PostgreSQL.
+
