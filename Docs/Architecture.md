@@ -94,3 +94,137 @@ Its responsibility is to represent the conditions that must be satisfied for dom
 
 Business rules belong to `logic/` and must not depend on SQL queries or PostgreSQL.
 
+# 4. Intermediaries
+
+`intermediaries/` acts as a coordination layer between the different parts of the system.
+
+```text
+intermediaries/
+├── validators/
+├── mappers/
+└── router/
+```
+
+The logic and services do not communicate directly with each other. The intermediaries control and coordinate the flow between both parts.
+
+---
+
+## 4.1 Validators
+
+`validators/` is responsible for validating inputs before they reach the logic layer.
+
+Responsibility:
+
+```text
+input
+  ↓
+validator
+  ↓
+valid / invalid
+```
+
+Validators must not contain financial domain logic.
+
+Their purpose is to validate the structure, types, formats, and input conditions corresponding to their responsibility.
+
+---
+
+## 4.2 Mappers
+
+`mappers/` transforms information between the representations used by the different layers.
+
+For example:
+
+```text
+external data
+     ↓
+   Mapper
+     ↓
+Entity
+```
+
+And later:
+
+```text
+Entity
+   ↓
+Mapper
+   ↓
+persistence data
+```
+
+Mappers must not contain business rules.
+
+Their responsibility is to transform data between representations.
+
+---
+
+## 4.3 Router
+
+The `router/` coordinates use cases and controls the flow between components.
+
+For example, a conceptual operation for registering an expense could follow:
+
+```text
+input
+  ↓
+validator
+  ↓
+mapper
+  ↓
+router
+  ↓
+logic
+  ↓
+router
+  ↓
+mapper
+  ↓
+service
+```
+
+The router coordinates the flow but must not implement business rules.
+
+If a decision belongs to the financial domain, it must be implemented in `logic/`.
+
+---
+
+# 5. Services
+
+`services/` contains the communication with PostgreSQL and the persistence of information.
+
+```text
+services/
+├── connection.py
+└── ...
+```
+
+This layer will be implemented later, after completing the system logic.
+
+Its responsibilities will include:
+
+* establishing connections with PostgreSQL;
+* executing SQL queries;
+* inserting data;
+* retrieving data;
+* updating data;
+* deleting data or performing soft deletes;
+* handling persistence operations.
+
+Services are the only layer that should directly know the details of PostgreSQL and SQL.
+
+Queries must use parameters, avoiding unsafe SQL construction through string concatenation.
+
+Conceptually:
+
+```text
+Logic
+   ↑
+Intermediaries
+   ↑
+Services
+   ↓
+PostgreSQL
+```
+
+The logic layer must not contain SQL.
