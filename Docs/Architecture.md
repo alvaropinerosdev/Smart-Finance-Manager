@@ -228,3 +228,54 @@ PostgreSQL
 ```
 
 The logic layer must not contain SQL.
+
+# 6. General Flow
+
+The main system flow follows a controlled direction in which the intermediaries coordinate communication between the client, business logic, and persistence.
+
+For a typical operation that requires persistence, the conceptual flow is:
+
+```text
+                    ┌───────────────┐
+                    │    Client     │
+                    │   / Frontend  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                 ┌────────────────────┐
+                 │   Intermediaries   │
+                 │                    │
+                 │ Validators         │
+                 │ Mappers            │
+                 │ Router             │
+                 └──────────┬─────────┘
+                            │
+                            ▼
+                 ┌────────────────────┐
+                 │       Logic        │
+                 │                    │
+                 │ Entities           │
+                 │ Rules              │
+                 │ Calculations       │
+                 └──────────┬─────────┘
+                            │
+                            ▼
+                 ┌────────────────────┐
+                 │   Intermediaries   │
+                 │                    │
+                 │ Mappers            │
+                 │ Router             │
+                 └──────────┬─────────┘
+                            │
+                            ▼
+                 ┌────────────────────┐
+                 │      Services      │
+                 │                    │
+                 │ Connection         │
+                 │ SQL / Persistence  │
+                 └──────────┬─────────┘
+                            │
+                            ▼
+                 ┌────────────────────┐
+                 │     PostgreSQL     │
+                 └────────────────────┘
