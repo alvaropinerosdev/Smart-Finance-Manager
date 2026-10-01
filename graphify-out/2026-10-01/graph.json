@@ -1,0 +1,926 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "core_domain",
+        "label": "Core Domain Entities",
+        "nodes": [
+          "docs_db_user",
+          "docs_db_financialrecord",
+          "docs_db_category",
+          "docs_db_goal"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "Docs/DataBase.md"
+      },
+      {
+        "id": "audit_system",
+        "label": "Audit & History System",
+        "nodes": [
+          "docs_db_modificationhistory",
+          "docs_db_polymorphic_history",
+          "docs_db_soft_delete"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "Docs/DataBase.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "docs_architecture",
+      "label": "Architecture.md",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "architecture.md",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_architecture_4_1_validators",
+      "label": "4.1 Validators",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4.1 validators",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L112"
+    },
+    {
+      "id": "docs_architecture_4_2_mappers",
+      "label": "4.2 Mappers",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4.2 mappers",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "docs_architecture_4_3_router",
+      "label": "4.3 Router",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4.3 router",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L162"
+    },
+    {
+      "id": "docs_architecture_4_intermediaries",
+      "label": "4. Intermediaries",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. intermediaries",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "docs_architecture_5_services",
+      "label": "5. Services",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. services",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L192"
+    },
+    {
+      "id": "docs_architecture_6_general_flow",
+      "label": "6. General Flow",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. general flow",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L232"
+    },
+    {
+      "id": "docs_architecture_1_architecture_objective",
+      "label": "1. Architecture Objective",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. architecture objective",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_architecture_2_main_structure",
+      "label": "2. Main Structure",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. main structure",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "docs_architecture_3_1_logic",
+      "label": "3.1 Logic",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.1 logic",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "docs_architecture_3_components",
+      "label": "3. Components",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. components",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "docs_architecture_entities",
+      "label": "`entities/`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`entities/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "docs_architecture_rules",
+      "label": "`rules/`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`rules/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "docs_architecture_smart_finance_manager_system_architecture",
+      "label": "Smart Finance Manager \u2014 System Architecture",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "smart finance manager \u2014 system architecture",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_rules_graphify",
+      "label": "rules/graphify.md",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "rules/graphify.md",
+      "file_type": "document",
+      "frontmatter": {
+        "trigger": "always_on",
+        "description": "Consult the graphify knowledge graph at graphify-out/ for codebase and architecture questions."
+      },
+      "node_kind": "page",
+      "norm_label": "rules/graphify.md",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_rules_graphify_graphify",
+      "label": "graphify",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "rules/graphify.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "graphify",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "agents_workflows_graphify",
+      "label": "workflows/graphify.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "workflows/graphify.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "graphify",
+        "description": "Turn any folder of files into a navigable knowledge graph"
+      },
+      "node_kind": "page",
+      "norm_label": "workflows/graphify.md",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_workflows_graphify_workflow_graphify",
+      "label": "Workflow: graphify",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "workflows/graphify.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "workflow: graphify",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "docs_classdiagram",
+      "label": "ClassDiagram.md",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "classdiagram.md",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_class_diagram_design",
+      "label": "Class Diagram Design",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "class diagram design",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_introduction",
+      "label": "Introduction",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "introduction",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_db_category",
+      "label": "Category",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "User",
+      "file_type": "concept",
+      "norm_label": "category",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_financialreport",
+      "label": "FinancialReport",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "User",
+      "file_type": "concept",
+      "norm_label": "financialreport",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_user",
+      "label": "User",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "User",
+      "file_type": "concept",
+      "norm_label": "user",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_img_database_uml",
+      "label": "Database UML",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "User",
+      "file_type": "image",
+      "norm_label": "database uml",
+      "source_file": "Docs/Images/database_uml.png"
+    },
+    {
+      "id": "docs_db_contribution",
+      "label": "Contribution",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Goal",
+      "file_type": "concept",
+      "norm_label": "contribution",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_goal",
+      "label": "Goal",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Goal",
+      "file_type": "concept",
+      "norm_label": "goal",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_modificationhistory",
+      "label": "ModificationHistory",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Goal",
+      "file_type": "concept",
+      "norm_label": "modificationhistory",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_polymorphic_history",
+      "label": "Polymorphic History",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Goal",
+      "file_type": "rationale",
+      "norm_label": "polymorphic history",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "readme_scope_v1",
+      "label": "Console Scope V1",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Goal",
+      "file_type": "rationale",
+      "norm_label": "console scope v1",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_tech_docker",
+      "label": "Docker",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "Smart Finance Manager",
+      "file_type": "concept",
+      "norm_label": "docker",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_tech_postgresql",
+      "label": "PostgreSQL",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "Smart Finance Manager",
+      "file_type": "concept",
+      "norm_label": "postgresql",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_tech_pytest",
+      "label": "Pytest",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "Smart Finance Manager",
+      "file_type": "concept",
+      "norm_label": "pytest",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_tech_python",
+      "label": "Python",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "Smart Finance Manager",
+      "file_type": "concept",
+      "norm_label": "python",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_smart_finance_manager",
+      "label": "Smart Finance Manager",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "Smart Finance Manager",
+      "file_type": "document",
+      "norm_label": "smart finance manager",
+      "source_file": "README.md"
+    },
+    {
+      "id": "docs_db_expense",
+      "label": "Expense",
+      "_origin": "semantic",
+      "community": 7,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "expense",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_financialrecord",
+      "label": "FinancialRecord",
+      "_origin": "semantic",
+      "community": 7,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "financialrecord",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_income",
+      "label": "Income",
+      "_origin": "semantic",
+      "community": 7,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "income",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_soft_delete",
+      "label": "Soft Delete",
+      "_origin": "semantic",
+      "community": 7,
+      "community_name": "FinancialRecord",
+      "file_type": "rationale",
+      "norm_label": "soft delete",
+      "source_file": "Docs/DataBase.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "agents_rules_graphify",
+      "target": "agents_rules_graphify_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_graphify",
+      "target": "agents_workflows_graphify_workflow_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture",
+      "target": "docs_architecture_smart_finance_manager_system_architecture",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture",
+      "target": "docs_architecture_5_services",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture",
+      "target": "docs_architecture_6_general_flow",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture",
+      "target": "docs_architecture_4_intermediaries",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_components",
+      "target": "docs_architecture_3_1_logic",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_components",
+      "target": "docs_architecture_entities",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_components",
+      "target": "docs_architecture_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_intermediaries",
+      "target": "docs_architecture_4_1_validators",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_intermediaries",
+      "target": "docs_architecture_4_2_mappers",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_intermediaries",
+      "target": "docs_architecture_4_3_router",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_smart_finance_manager_system_architecture",
+      "target": "docs_architecture_2_main_structure",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_smart_finance_manager_system_architecture",
+      "target": "docs_architecture_1_architecture_objective",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_smart_finance_manager_system_architecture",
+      "target": "docs_architecture_3_components",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram",
+      "target": "docs_classdiagram_class_diagram_design",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_class_diagram_design",
+      "target": "docs_classdiagram_introduction",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "readme_scope_v1",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_financialrecord",
+      "target": "docs_db_expense",
+      "relation": "implements",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_financialrecord",
+      "target": "docs_db_income",
+      "relation": "implements",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_financialrecord",
+      "target": "docs_db_soft_delete",
+      "relation": "rationale_for",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_modificationhistory",
+      "target": "docs_db_polymorphic_history",
+      "relation": "rationale_for",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_img_database_uml",
+      "target": "docs_db_financialrecord",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Images/database_uml.png",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_img_database_uml",
+      "target": "docs_db_user",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/Images/database_uml.png",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "readme_tech_docker",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "readme_tech_postgresql",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "readme_tech_pytest",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "readme_tech_python",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_category",
+      "target": "docs_db_financialrecord",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_financialrecord",
+      "target": "docs_db_modificationhistory",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_goal",
+      "target": "docs_db_contribution",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_goal",
+      "target": "docs_db_modificationhistory",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_user",
+      "target": "docs_db_category",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_user",
+      "target": "docs_db_financialrecord",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_user",
+      "target": "docs_db_financialreport",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_user",
+      "target": "docs_db_goal",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_scope_v1",
+      "target": "docs_db_financialrecord",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_scope_v1",
+      "target": "docs_db_goal",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_db_user",
+      "target": "readme_tech_postgresql",
+      "relation": "implements",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Docs/DataBase.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_finance_manager",
+      "target": "docs_db_user",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "core_domain",
+      "label": "Core Domain Entities",
+      "nodes": [
+        "docs_db_user",
+        "docs_db_financialrecord",
+        "docs_db_category",
+        "docs_db_goal"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "audit_system",
+      "label": "Audit & History System",
+      "nodes": [
+        "docs_db_modificationhistory",
+        "docs_db_polymorphic_history",
+        "docs_db_soft_delete"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Docs/DataBase.md"
+    }
+  ],
+  "built_at_commit": "eeea053ffcf5076a5f03dd058bf493bb17c51a8d"
+}

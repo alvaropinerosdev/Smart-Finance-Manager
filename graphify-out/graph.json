@@ -34,6 +34,54 @@
   },
   "nodes": [
     {
+      "id": "docs_classdiagram_4_reporting_audit_domain",
+      "label": "4. Reporting & Audit Domain",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "4. Reporting & Audit Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. reporting & audit domain",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L189"
+    },
+    {
+      "id": "docs_classdiagram_financialreport",
+      "label": "`FinancialReport`",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "4. Reporting & Audit Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`financialreport`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "docs_classdiagram_key_methods_203",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "4. Reporting & Audit Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L203"
+    },
+    {
+      "id": "docs_classdiagram_modificationhistory",
+      "label": "`ModificationHistory`",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "4. Reporting & Audit Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`modificationhistory`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L209"
+    },
+    {
       "id": "docs_architecture",
       "label": "Architecture.md",
       "_origin": "ast",
@@ -44,6 +92,54 @@
       "norm_label": "architecture.md",
       "source_file": "Docs/Architecture.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_architecture_1_architecture_objective",
+      "label": "1. Architecture Objective",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. architecture objective",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_architecture_2_main_structure",
+      "label": "2. Main Structure",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. main structure",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "docs_architecture_3_1_logic",
+      "label": "3.1 Logic",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.1 logic",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "docs_architecture_3_components",
+      "label": "3. Components",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. components",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L42"
     },
     {
       "id": "docs_architecture_4_1_validators",
@@ -118,59 +214,11 @@
       "source_location": "L232"
     },
     {
-      "id": "docs_architecture_1_architecture_objective",
-      "label": "1. Architecture Objective",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. architecture objective",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L3"
-    },
-    {
-      "id": "docs_architecture_2_main_structure",
-      "label": "2. Main Structure",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. main structure",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L15"
-    },
-    {
-      "id": "docs_architecture_3_1_logic",
-      "label": "3.1 Logic",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.1 logic",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L44"
-    },
-    {
-      "id": "docs_architecture_3_components",
-      "label": "3. Components",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. components",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L42"
-    },
-    {
       "id": "docs_architecture_entities",
       "label": "`entities/`",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
+      "community": 3,
+      "community_name": "Architecture.md",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`entities/`",
@@ -181,8 +229,8 @@
       "id": "docs_architecture_rules",
       "label": "`rules/`",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
+      "community": 3,
+      "community_name": "Architecture.md",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`rules/`",
@@ -193,13 +241,121 @@
       "id": "docs_architecture_smart_finance_manager_system_architecture",
       "label": "Smart Finance Manager \u2014 System Architecture",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "3. Components",
+      "community": 3,
+      "community_name": "Architecture.md",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "smart finance manager \u2014 system architecture",
       "source_file": "Docs/Architecture.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_2_user_classification_domain",
+      "label": "2. User & Classification Domain",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. user & classification domain",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L110"
+    },
+    {
+      "id": "docs_classdiagram_3_goals_savings_domain",
+      "label": "3. Goals & Savings Domain",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. goals & savings domain",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "docs_classdiagram_category",
+      "label": "`Category`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`category`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "docs_classdiagram_contribution",
+      "label": "`Contribution`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`contribution`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "docs_classdiagram_detailed_class_specifications",
+      "label": "Detailed Class Specifications",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "detailed class specifications",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L55"
+    },
+    {
+      "id": "docs_classdiagram_goal",
+      "label": "`Goal`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`goal`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L147"
+    },
+    {
+      "id": "docs_classdiagram_key_methods_137",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L137"
+    },
+    {
+      "id": "docs_classdiagram_key_methods_162",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L162"
+    },
+    {
+      "id": "docs_classdiagram_user",
+      "label": "`User`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`user`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L112"
     },
     {
       "id": "agents_rules_graphify",
@@ -258,6 +414,66 @@
       "source_location": "L6"
     },
     {
+      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "label": "1. Core Domain Entities & Inheritance",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. core domain entities & inheritance",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "docs_classdiagram_expense_derived_from_financialrecord",
+      "label": "`Expense` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`expense` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "docs_classdiagram_financialrecord_abstract_base_class",
+      "label": "`FinancialRecord` *(Abstract Base Class)*",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`financialrecord` *(abstract base class)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "docs_classdiagram_income_derived_from_financialrecord",
+      "label": "`Income` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`income` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "docs_classdiagram_key_methods",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L80"
+    },
+    {
       "id": "docs_classdiagram",
       "label": "ClassDiagram.md",
       "_origin": "ast",
@@ -268,6 +484,18 @@
       "norm_label": "classdiagram.md",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_architectural_notes",
+      "label": "Architectural Notes",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "architectural notes",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L46"
     },
     {
       "id": "docs_classdiagram_class_diagram_design",
@@ -282,6 +510,30 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_classdiagram_class_relationships_associations",
+      "label": "Class Relationships & Associations",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "class relationships & associations",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "docs_classdiagram_implementation_mapping_guidelines",
+      "label": "Implementation & Mapping Guidelines",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "implementation & mapping guidelines",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L248"
+    },
+    {
       "id": "docs_classdiagram_introduction",
       "label": "Introduction",
       "_origin": "ast",
@@ -294,13 +546,105 @@
       "source_location": "L3"
     },
     {
+      "id": "docs_classdiagram_main_classes",
+      "label": "Main Classes",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "Class Diagram Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "main classes",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "docs_classdiagram_5_application_services_utilities",
+      "label": "5. Application Services & Utilities",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. application services & utilities",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "docs_classdiagram_excelexporter_service_export_utility",
+      "label": "`ExcelExporter` *(Service / Export Utility)*",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`excelexporter` *(service / export utility)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L238"
+    },
+    {
+      "id": "docs_classdiagram_key_responsibilities",
+      "label": "Key Responsibilities:",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key responsibilities:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L241"
+    },
+    {
+      "id": "docs_classdiagram_key_responsibilities_methods",
+      "label": "Key Responsibilities & Methods:",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key responsibilities & methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L230"
+    },
+    {
+      "id": "docs_classdiagram_statistics_service_calculation_component",
+      "label": "`Statistics` *(Service / Calculation Component)*",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`statistics` *(service / calculation component)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L227"
+    },
+    {
       "id": "docs_db_category",
       "label": "Category",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "User",
+      "community_name": "FinancialRecord",
       "file_type": "concept",
       "norm_label": "category",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_expense",
+      "label": "Expense",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "expense",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_financialrecord",
+      "label": "FinancialRecord",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "financialrecord",
       "source_file": "Docs/DataBase.md"
     },
     {
@@ -308,9 +652,19 @@
       "label": "FinancialReport",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "User",
+      "community_name": "FinancialRecord",
       "file_type": "concept",
       "norm_label": "financialreport",
+      "source_file": "Docs/DataBase.md"
+    },
+    {
+      "id": "docs_db_income",
+      "label": "Income",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "FinancialRecord",
+      "file_type": "concept",
+      "norm_label": "income",
       "source_file": "Docs/DataBase.md"
     },
     {
@@ -318,7 +672,7 @@
       "label": "User",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "User",
+      "community_name": "FinancialRecord",
       "file_type": "concept",
       "norm_label": "user",
       "source_file": "Docs/DataBase.md"
@@ -328,10 +682,20 @@
       "label": "Database UML",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "User",
+      "community_name": "FinancialRecord",
       "file_type": "image",
       "norm_label": "database uml",
       "source_file": "Docs/Images/database_uml.png"
+    },
+    {
+      "id": "docs_db_soft_delete",
+      "label": "Soft Delete",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "FinancialRecord",
+      "file_type": "rationale",
+      "norm_label": "soft delete",
+      "source_file": "Docs/DataBase.md"
     },
     {
       "id": "docs_db_contribution",
@@ -432,46 +796,6 @@
       "file_type": "document",
       "norm_label": "smart finance manager",
       "source_file": "README.md"
-    },
-    {
-      "id": "docs_db_expense",
-      "label": "Expense",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "FinancialRecord",
-      "file_type": "concept",
-      "norm_label": "expense",
-      "source_file": "Docs/DataBase.md"
-    },
-    {
-      "id": "docs_db_financialrecord",
-      "label": "FinancialRecord",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "FinancialRecord",
-      "file_type": "concept",
-      "norm_label": "financialrecord",
-      "source_file": "Docs/DataBase.md"
-    },
-    {
-      "id": "docs_db_income",
-      "label": "Income",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "FinancialRecord",
-      "file_type": "concept",
-      "norm_label": "income",
-      "source_file": "Docs/DataBase.md"
-    },
-    {
-      "id": "docs_db_soft_delete",
-      "label": "Soft Delete",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "FinancialRecord",
-      "file_type": "rationale",
-      "norm_label": "soft delete",
-      "source_file": "Docs/DataBase.md"
     }
   ],
   "links": [
@@ -652,6 +976,149 @@
       "weight": 1.0
     },
     {
+      "source": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "target": "docs_classdiagram_expense_derived_from_financialrecord",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "target": "docs_classdiagram_financialrecord_abstract_base_class",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "target": "docs_classdiagram_income_derived_from_financialrecord",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_2_user_classification_domain",
+      "target": "docs_classdiagram_user",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_2_user_classification_domain",
+      "target": "docs_classdiagram_category",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_3_goals_savings_domain",
+      "target": "docs_classdiagram_goal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_3_goals_savings_domain",
+      "target": "docs_classdiagram_contribution",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_4_reporting_audit_domain",
+      "target": "docs_classdiagram_financialreport",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_4_reporting_audit_domain",
+      "target": "docs_classdiagram_modificationhistory",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_5_application_services_utilities",
+      "target": "docs_classdiagram_statistics_service_calculation_component",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_5_application_services_utilities",
+      "target": "docs_classdiagram_excelexporter_service_export_utility",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_category",
+      "target": "docs_classdiagram_key_methods_137",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_class_diagram_design",
+      "target": "docs_classdiagram_implementation_mapping_guidelines",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
       "source": "docs_classdiagram_class_diagram_design",
       "target": "docs_classdiagram_introduction",
       "relation": "contains",
@@ -660,6 +1127,160 @@
       "confidence_score": 1.0,
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_class_diagram_design",
+      "target": "docs_classdiagram_detailed_class_specifications",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_detailed_class_specifications",
+      "target": "docs_classdiagram_2_user_classification_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_detailed_class_specifications",
+      "target": "docs_classdiagram_3_goals_savings_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_detailed_class_specifications",
+      "target": "docs_classdiagram_4_reporting_audit_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_detailed_class_specifications",
+      "target": "docs_classdiagram_5_application_services_utilities",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_detailed_class_specifications",
+      "target": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_excelexporter_service_export_utility",
+      "target": "docs_classdiagram_key_responsibilities",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_financialrecord_abstract_base_class",
+      "target": "docs_classdiagram_key_methods",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_financialreport",
+      "target": "docs_classdiagram_key_methods_203",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_goal",
+      "target": "docs_classdiagram_key_methods_162",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_introduction",
+      "target": "docs_classdiagram_main_classes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_introduction",
+      "target": "docs_classdiagram_class_relationships_associations",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_introduction",
+      "target": "docs_classdiagram_architectural_notes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_classdiagram_statistics_service_calculation_component",
+      "target": "docs_classdiagram_key_responsibilities_methods",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L230",
       "weight": 1.0
     },
     {
@@ -922,5 +1543,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "eeea053ffcf5076a5f03dd058bf493bb17c51a8d"
+  "built_at_commit": "7d86a02c6165ac21321af9b8aaef228a339a7062"
 }
