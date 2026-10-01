@@ -34,17 +34,5 @@
     "seen": 1790698816.5533235,
     "ast_hash": "594ec3355dd88e33178b391588602dd5",
     "semantic_hash": ""
-  },
-  "Docs/ClassDiagram.md": {
-    "mtime": 1790822279.2486136,
-    "seen": 1790822396.095703,
-    "ast_hash": "6b8fa7b7f85eddb73707051767c52ef3",
-    "semantic_hash": ""
-  },
-  "Docs/Images/Class Diagram.png": {
-    "mtime": 1790821813.675637,
-    "seen": 1790822396.095703,
-    "ast_hash": "c8c67092249802130f0860ca56e92a27",
-    "semantic_hash": ""
   }
 }
