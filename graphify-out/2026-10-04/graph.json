@@ -60,6 +60,30 @@
       "source_location": "L6"
     },
     {
+      "id": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
+      "label": "test_smoke_domain_exceptions_import()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "code",
+      "norm_label": "test_smoke_domain_exceptions_import()",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "tests_unit_test_smoke_test_smoke_environment",
+      "label": "test_smoke_environment()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "code",
+      "norm_label": "test_smoke_environment()",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L9"
+    },
+    {
       "id": "exception",
       "label": "Exception",
       "_origin": "ast",
@@ -79,6 +103,17 @@
       "file_type": "code",
       "norm_label": "exceptions.py",
       "source_file": "src/exceptions.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_unit_test_smoke",
+      "label": "test_smoke.py",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "code",
+      "norm_label": "test_smoke.py",
+      "source_file": "tests/unit/test_smoke.py",
       "source_location": "L1"
     },
     {
@@ -113,6 +148,39 @@
       "norm_label": "base exception for all domain and application errors.",
       "source_file": "src/exceptions.py",
       "source_location": "L7"
+    },
+    {
+      "id": "tests_unit_test_smoke_rationale_1",
+      "label": "Smoke test to verify that the testing environment, test runner, and project\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "rationale",
+      "norm_label": "smoke test to verify that the testing environment, test runner, and project...",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_unit_test_smoke_rationale_10",
+      "label": "Verify that pytest is functioning properly.",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "rationale",
+      "norm_label": "verify that pytest is functioning properly.",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L10"
+    },
+    {
+      "id": "tests_unit_test_smoke_rationale_15",
+      "label": "Verify that domain exceptions in src can be imported and instantiated.",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SmartFinanceError",
+      "file_type": "rationale",
+      "norm_label": "verify that domain exceptions in src can be imported and instantiated.",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L15"
     },
     {
       "id": "src_logic_calculations_init",
@@ -181,6 +249,54 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_classdiagram_3_goals_savings_domain",
+      "label": "3. Goals & Savings Domain",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3. Goals & Savings Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. goals & savings domain",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "docs_classdiagram_contribution",
+      "label": "`Contribution`",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3. Goals & Savings Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`contribution`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "docs_classdiagram_goal",
+      "label": "`Goal`",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3. Goals & Savings Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`goal`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L147"
+    },
+    {
+      "id": "docs_classdiagram_key_methods_162",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3. Goals & Savings Domain",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L162"
+    },
+    {
       "id": "src_init",
       "label": "src/__init__.py",
       "_origin": "ast",
@@ -202,54 +318,6 @@
       "norm_label": "architecture.md",
       "source_file": "Docs/Architecture.md",
       "source_location": "L1"
-    },
-    {
-      "id": "docs_architecture_1_architecture_objective",
-      "label": "1. Architecture Objective",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. architecture objective",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L3"
-    },
-    {
-      "id": "docs_architecture_2_main_structure",
-      "label": "2. Main Structure",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. main structure",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L15"
-    },
-    {
-      "id": "docs_architecture_3_1_logic",
-      "label": "3.1 Logic",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.1 logic",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L44"
-    },
-    {
-      "id": "docs_architecture_3_components",
-      "label": "3. Components",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. components",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L42"
     },
     {
       "id": "docs_architecture_4_1_validators",
@@ -324,40 +392,16 @@
       "source_location": "L232"
     },
     {
-      "id": "docs_architecture_entities",
-      "label": "`entities/`",
+      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "label": "1. Core Domain Entities & Inheritance",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`entities/`",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L57"
-    },
-    {
-      "id": "docs_architecture_rules",
-      "label": "`rules/`",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`rules/`",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L89"
-    },
-    {
-      "id": "docs_architecture_smart_finance_manager_system_architecture",
-      "label": "Smart Finance Manager \u2014 System Architecture",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Architecture.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "smart finance manager \u2014 system architecture",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L1"
+      "norm_label": "1. core domain entities & inheritance",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L59"
     },
     {
       "id": "docs_classdiagram_2_user_classification_domain",
@@ -370,18 +414,6 @@
       "norm_label": "2. user & classification domain",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L110"
-    },
-    {
-      "id": "docs_classdiagram_3_goals_savings_domain",
-      "label": "3. Goals & Savings Domain",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. goals & savings domain",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L145"
     },
     {
       "id": "docs_classdiagram_4_reporting_audit_domain",
@@ -408,18 +440,6 @@
       "source_location": "L123"
     },
     {
-      "id": "docs_classdiagram_contribution",
-      "label": "`Contribution`",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`contribution`",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L173"
-    },
-    {
       "id": "docs_classdiagram_detailed_class_specifications",
       "label": "Detailed Class Specifications",
       "_origin": "ast",
@@ -430,6 +450,30 @@
       "norm_label": "detailed class specifications",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L55"
+    },
+    {
+      "id": "docs_classdiagram_expense_derived_from_financialrecord",
+      "label": "`Expense` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`expense` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "docs_classdiagram_financialrecord_abstract_base_class",
+      "label": "`FinancialRecord` *(Abstract Base Class)*",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`financialrecord` *(abstract base class)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L61"
     },
     {
       "id": "docs_classdiagram_financialreport",
@@ -444,16 +488,28 @@
       "source_location": "L191"
     },
     {
-      "id": "docs_classdiagram_goal",
-      "label": "`Goal`",
+      "id": "docs_classdiagram_income_derived_from_financialrecord",
+      "label": "`Income` *(Derived from FinancialRecord)*",
       "_origin": "ast",
       "community": 4,
       "community_name": "Detailed Class Specifications",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`goal`",
+      "norm_label": "`income` *(derived from financialrecord)*",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L147"
+      "source_location": "L90"
+    },
+    {
+      "id": "docs_classdiagram_key_methods",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L80"
     },
     {
       "id": "docs_classdiagram_key_methods_137",
@@ -466,18 +522,6 @@
       "norm_label": "key methods:",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L137"
-    },
-    {
-      "id": "docs_classdiagram_key_methods_162",
-      "label": "Key Methods:",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "key methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L162"
     },
     {
       "id": "docs_classdiagram_key_methods_203",
@@ -572,64 +616,88 @@
       "source_location": "L6"
     },
     {
-      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
-      "label": "1. Core Domain Entities & Inheritance",
+      "id": "docs_architecture_1_architecture_objective",
+      "label": "1. Architecture Objective",
       "_origin": "ast",
       "community": 7,
-      "community_name": "1. Core Domain Entities & Inheritance",
+      "community_name": "3. Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. core domain entities & inheritance",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L59"
+      "norm_label": "1. architecture objective",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L3"
     },
     {
-      "id": "docs_classdiagram_expense_derived_from_financialrecord",
-      "label": "`Expense` *(Derived from FinancialRecord)*",
+      "id": "docs_architecture_2_main_structure",
+      "label": "2. Main Structure",
       "_origin": "ast",
       "community": 7,
-      "community_name": "1. Core Domain Entities & Inheritance",
+      "community_name": "3. Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`expense` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L100"
+      "norm_label": "2. main structure",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L15"
     },
     {
-      "id": "docs_classdiagram_financialrecord_abstract_base_class",
-      "label": "`FinancialRecord` *(Abstract Base Class)*",
+      "id": "docs_architecture_3_1_logic",
+      "label": "3.1 Logic",
       "_origin": "ast",
       "community": 7,
-      "community_name": "1. Core Domain Entities & Inheritance",
+      "community_name": "3. Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`financialrecord` *(abstract base class)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L61"
+      "norm_label": "3.1 logic",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L44"
     },
     {
-      "id": "docs_classdiagram_income_derived_from_financialrecord",
-      "label": "`Income` *(Derived from FinancialRecord)*",
+      "id": "docs_architecture_3_components",
+      "label": "3. Components",
       "_origin": "ast",
       "community": 7,
-      "community_name": "1. Core Domain Entities & Inheritance",
+      "community_name": "3. Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`income` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L90"
+      "norm_label": "3. components",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L42"
     },
     {
-      "id": "docs_classdiagram_key_methods",
-      "label": "Key Methods:",
+      "id": "docs_architecture_entities",
+      "label": "`entities/`",
       "_origin": "ast",
       "community": 7,
-      "community_name": "1. Core Domain Entities & Inheritance",
+      "community_name": "3. Components",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "key methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L80"
+      "norm_label": "`entities/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "docs_architecture_rules",
+      "label": "`rules/`",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`rules/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "docs_architecture_smart_finance_manager_system_architecture",
+      "label": "Smart Finance Manager \u2014 System Architecture",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "3. Components",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "smart finance manager \u2014 system architecture",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L1"
     },
     {
       "id": "docs_classdiagram",
@@ -957,6 +1025,18 @@
     }
   ],
   "links": [
+    {
+      "source": "tests_unit_test_smoke",
+      "target": "src_exceptions",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
     {
       "source": "agents_rules_graphify",
       "target": "agents_rules_graphify_graphify",
@@ -1464,6 +1544,28 @@
       "weight": 1.0
     },
     {
+      "source": "tests_unit_test_smoke",
+      "target": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_smoke",
+      "target": "tests_unit_test_smoke_test_smoke_environment",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "src_exceptions_domainvalidationerror",
       "target": "src_exceptions_smartfinanceerror",
       "relation": "inherits",
@@ -1517,6 +1619,61 @@
       "source_file": "src/exceptions.py",
       "source_location": "L7",
       "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_smoke_rationale_1",
+      "target": "tests_unit_test_smoke",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_smoke_rationale_10",
+      "target": "tests_unit_test_smoke_test_smoke_environment",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_smoke_rationale_15",
+      "target": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "uses",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L16",
+      "weight": 0.8
+    },
+    {
+      "source": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
+      "target": "src_exceptions_smartfinanceerror",
+      "relation": "uses",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_smoke.py",
+      "source_location": "L17",
+      "weight": 0.8
     },
     {
       "source": "readme_smart_finance_manager",
@@ -1778,5 +1935,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "fd1193a3cb08f0542566eece955391df9fd80cc2"
+  "built_at_commit": "0ff4129a64dfb4b7ceaa3eb208ec662e7b4bc9ee"
 }

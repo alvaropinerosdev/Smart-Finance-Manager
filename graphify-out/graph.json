@@ -249,52 +249,64 @@
       "source_location": "L1"
     },
     {
-      "id": "docs_classdiagram_3_goals_savings_domain",
-      "label": "3. Goals & Savings Domain",
+      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "label": "1. Core Domain Entities & Inheritance",
       "_origin": "ast",
       "community": 16,
-      "community_name": "3. Goals & Savings Domain",
+      "community_name": "1. Core Domain Entities & Inheritance",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "3. goals & savings domain",
+      "norm_label": "1. core domain entities & inheritance",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L145"
+      "source_location": "L59"
     },
     {
-      "id": "docs_classdiagram_contribution",
-      "label": "`Contribution`",
+      "id": "docs_classdiagram_expense_derived_from_financialrecord",
+      "label": "`Expense` *(Derived from FinancialRecord)*",
       "_origin": "ast",
       "community": 16,
-      "community_name": "3. Goals & Savings Domain",
+      "community_name": "1. Core Domain Entities & Inheritance",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`contribution`",
+      "norm_label": "`expense` *(derived from financialrecord)*",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L173"
+      "source_location": "L100"
     },
     {
-      "id": "docs_classdiagram_goal",
-      "label": "`Goal`",
+      "id": "docs_classdiagram_financialrecord_abstract_base_class",
+      "label": "`FinancialRecord` *(Abstract Base Class)*",
       "_origin": "ast",
       "community": 16,
-      "community_name": "3. Goals & Savings Domain",
+      "community_name": "1. Core Domain Entities & Inheritance",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`goal`",
+      "norm_label": "`financialrecord` *(abstract base class)*",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L147"
+      "source_location": "L61"
     },
     {
-      "id": "docs_classdiagram_key_methods_162",
+      "id": "docs_classdiagram_income_derived_from_financialrecord",
+      "label": "`Income` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "1. Core Domain Entities & Inheritance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`income` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "docs_classdiagram_key_methods",
       "label": "Key Methods:",
       "_origin": "ast",
       "community": 16,
-      "community_name": "3. Goals & Savings Domain",
+      "community_name": "1. Core Domain Entities & Inheritance",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "key methods:",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L162"
+      "source_location": "L80"
     },
     {
       "id": "src_init",
@@ -318,6 +330,54 @@
       "norm_label": "architecture.md",
       "source_file": "Docs/Architecture.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_architecture_1_architecture_objective",
+      "label": "1. Architecture Objective",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. architecture objective",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_architecture_2_main_structure",
+      "label": "2. Main Structure",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. main structure",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "docs_architecture_3_1_logic",
+      "label": "3.1 Logic",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3.1 logic",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "docs_architecture_3_components",
+      "label": "3. Components",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. components",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L42"
     },
     {
       "id": "docs_architecture_4_1_validators",
@@ -392,16 +452,40 @@
       "source_location": "L232"
     },
     {
-      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
-      "label": "1. Core Domain Entities & Inheritance",
+      "id": "docs_architecture_entities",
+      "label": "`entities/`",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community": 3,
+      "community_name": "Architecture.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. core domain entities & inheritance",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L59"
+      "norm_label": "`entities/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "docs_architecture_rules",
+      "label": "`rules/`",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`rules/`",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "docs_architecture_smart_finance_manager_system_architecture",
+      "label": "Smart Finance Manager \u2014 System Architecture",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "Architecture.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "smart finance manager \u2014 system architecture",
+      "source_file": "Docs/Architecture.md",
+      "source_location": "L1"
     },
     {
       "id": "docs_classdiagram_2_user_classification_domain",
@@ -414,6 +498,18 @@
       "norm_label": "2. user & classification domain",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L110"
+    },
+    {
+      "id": "docs_classdiagram_3_goals_savings_domain",
+      "label": "3. Goals & Savings Domain",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. goals & savings domain",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L145"
     },
     {
       "id": "docs_classdiagram_4_reporting_audit_domain",
@@ -440,6 +536,18 @@
       "source_location": "L123"
     },
     {
+      "id": "docs_classdiagram_contribution",
+      "label": "`Contribution`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`contribution`",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L173"
+    },
+    {
       "id": "docs_classdiagram_detailed_class_specifications",
       "label": "Detailed Class Specifications",
       "_origin": "ast",
@@ -450,30 +558,6 @@
       "norm_label": "detailed class specifications",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L55"
-    },
-    {
-      "id": "docs_classdiagram_expense_derived_from_financialrecord",
-      "label": "`Expense` *(Derived from FinancialRecord)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`expense` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L100"
-    },
-    {
-      "id": "docs_classdiagram_financialrecord_abstract_base_class",
-      "label": "`FinancialRecord` *(Abstract Base Class)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`financialrecord` *(abstract base class)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L61"
     },
     {
       "id": "docs_classdiagram_financialreport",
@@ -488,28 +572,16 @@
       "source_location": "L191"
     },
     {
-      "id": "docs_classdiagram_income_derived_from_financialrecord",
-      "label": "`Income` *(Derived from FinancialRecord)*",
+      "id": "docs_classdiagram_goal",
+      "label": "`Goal`",
       "_origin": "ast",
       "community": 4,
       "community_name": "Detailed Class Specifications",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`income` *(derived from financialrecord)*",
+      "norm_label": "`goal`",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L90"
-    },
-    {
-      "id": "docs_classdiagram_key_methods",
-      "label": "Key Methods:",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "key methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L80"
+      "source_location": "L147"
     },
     {
       "id": "docs_classdiagram_key_methods_137",
@@ -522,6 +594,18 @@
       "norm_label": "key methods:",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L137"
+    },
+    {
+      "id": "docs_classdiagram_key_methods_162",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Detailed Class Specifications",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L162"
     },
     {
       "id": "docs_classdiagram_key_methods_203",
@@ -616,88 +700,100 @@
       "source_location": "L6"
     },
     {
-      "id": "docs_architecture_1_architecture_objective",
-      "label": "1. Architecture Objective",
+      "id": "docs_gitworkflow",
+      "label": "GitWorkflow.md",
       "_origin": "ast",
       "community": 7,
-      "community_name": "3. Components",
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "gitworkflow.md",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_gitworkflow_1_branch_strategy_overview",
+      "label": "1. Branch Strategy Overview",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. architecture objective",
-      "source_file": "Docs/Architecture.md",
+      "norm_label": "1. branch strategy overview",
+      "source_file": "Docs/GitWorkflow.md",
       "source_location": "L3"
     },
     {
-      "id": "docs_architecture_2_main_structure",
-      "label": "2. Main Structure",
+      "id": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
+      "label": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "_origin": "ast",
       "community": 7,
-      "community_name": "3. Components",
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2. main structure",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L15"
+      "norm_label": "2. engineering incident & lessons learned (interview case study)",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L24"
     },
     {
-      "id": "docs_architecture_3_1_logic",
-      "label": "3.1 Logic",
+      "id": "docs_gitworkflow_3_key_takeaways_for_technical_interviews",
+      "label": "3. Key Takeaways for Technical Interviews",
       "_origin": "ast",
       "community": 7,
-      "community_name": "3. Components",
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "3.1 logic",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L44"
+      "norm_label": "3. key takeaways for technical interviews",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L41"
     },
     {
-      "id": "docs_architecture_3_components",
-      "label": "3. Components",
+      "id": "docs_gitworkflow_corrective_action_taken",
+      "label": "Corrective Action Taken",
       "_origin": "ast",
       "community": 7,
-      "community_name": "3. Components",
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "3. components",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L42"
+      "norm_label": "corrective action taken",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L33"
     },
     {
-      "id": "docs_architecture_entities",
-      "label": "`entities/`",
+      "id": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "label": "Git Workflow & Branching Strategy Guidelines",
       "_origin": "ast",
       "community": 7,
-      "community_name": "3. Components",
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`entities/`",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L57"
-    },
-    {
-      "id": "docs_architecture_rules",
-      "label": "`rules/`",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`rules/`",
-      "source_file": "Docs/Architecture.md",
-      "source_location": "L89"
-    },
-    {
-      "id": "docs_architecture_smart_finance_manager_system_architecture",
-      "label": "Smart Finance Manager \u2014 System Architecture",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "3. Components",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "smart finance manager \u2014 system architecture",
-      "source_file": "Docs/Architecture.md",
+      "norm_label": "git workflow & branching strategy guidelines",
+      "source_file": "Docs/GitWorkflow.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_gitworkflow_technical_analysis_root_cause",
+      "label": "Technical Analysis & Root Cause",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "technical analysis & root cause",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "docs_gitworkflow_the_scenario",
+      "label": "The Scenario",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "the scenario",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L26"
     },
     {
       "id": "docs_classdiagram",
@@ -1522,6 +1618,83 @@
       "weight": 1.0
     },
     {
+      "source": "docs_gitworkflow",
+      "target": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
+      "target": "docs_gitworkflow_the_scenario",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
+      "target": "docs_gitworkflow_technical_analysis_root_cause",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
+      "target": "docs_gitworkflow_corrective_action_taken",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "target": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "target": "docs_gitworkflow_1_branch_strategy_overview",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "target": "docs_gitworkflow_3_key_takeaways_for_technical_interviews",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
       "source": "src_exceptions",
       "target": "src_exceptions_domainvalidationerror",
       "relation": "contains",
@@ -1935,5 +2108,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "0ff4129a64dfb4b7ceaa3eb208ec662e7b4bc9ee"
+  "built_at_commit": "db844cc5346ddc6f403ae40b900ef532822020de"
 }

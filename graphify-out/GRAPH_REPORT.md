@@ -1,17 +1,17 @@
 # Graph Report - Smart_Finance_Manager  (2026-10-04)
 
 ## Corpus Check
-- 15 files · ~33,740 words
+- 16 files · ~34,141 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .ini 1)
 
 ## Summary
-- 86 nodes · 82 edges · 17 communities (8 shown, 9 thin omitted)
+- 94 nodes · 89 edges · 17 communities (8 shown, 9 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.92)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0ff4129a`
+- Built from commit: `db844cc5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -22,10 +22,10 @@
 - Detailed Class Specifications
 - rules/graphify.md
 - workflows/graphify.md
-- 3. Components
+- 2. Engineering Incident & Lessons Learned (Interview Case Study)
 - Class Diagram Design
 - 5. Application Services & Utilities
-- 3. Goals & Savings Domain
+- 1. Core Domain Entities & Inheritance
 
 ## God Nodes (most connected - your core abstractions)
 1. `FinancialRecord` - 8 edges
@@ -69,16 +69,16 @@ Cohesion: 0.19
 Nodes (11): Exception, DomainValidationError, Base Exceptions for Smart Finance Manager, Raised when an entity or business invariant validation fails., Base exception for all domain and application errors., SmartFinanceError, Smoke test to verify that the testing environment, test runner, and project…, Verify that pytest is functioning properly. (+3 more)
 
 ### Community 3 - "Architecture.md"
-Cohesion: 0.29
-Nodes (6): 4.1 Validators, 4.2 Mappers, 4.3 Router, 4. Intermediaries, 5. Services, 6. General Flow
+Cohesion: 0.14
+Nodes (13): 1. Architecture Objective, 2. Main Structure, 3.1 Logic, 3. Components, 4.1 Validators, 4.2 Mappers, 4.3 Router, 4. Intermediaries (+5 more)
 
 ### Community 4 - "Detailed Class Specifications"
-Cohesion: 0.14
-Nodes (14): 1. Core Domain Entities & Inheritance, 2. User & Classification Domain, 4. Reporting & Audit Domain, `Category`, Detailed Class Specifications, `Expense` *(Derived from FinancialRecord)*, `FinancialRecord` *(Abstract Base Class)*, `FinancialReport` (+6 more)
+Cohesion: 0.15
+Nodes (13): 2. User & Classification Domain, 3. Goals & Savings Domain, 4. Reporting & Audit Domain, `Category`, `Contribution`, Detailed Class Specifications, `FinancialReport`, `Goal` (+5 more)
 
-### Community 7 - "3. Components"
-Cohesion: 0.29
-Nodes (7): 1. Architecture Objective, 2. Main Structure, 3.1 Logic, 3. Components, `entities/`, `rules/`, Smart Finance Manager — System Architecture
+### Community 7 - "2. Engineering Incident & Lessons Learned (Interview Case Study)"
+Cohesion: 0.25
+Nodes (7): 1. Branch Strategy Overview, 2. Engineering Incident & Lessons Learned (Interview Case Study), 3. Key Takeaways for Technical Interviews, Corrective Action Taken, Git Workflow & Branching Strategy Guidelines, Technical Analysis & Root Cause, The Scenario
 
 ### Community 8 - "Class Diagram Design"
 Cohesion: 0.29
@@ -88,25 +88,27 @@ Nodes (6): Architectural Notes, Class Diagram Design, Class Relationships & Asso
 Cohesion: 0.40
 Nodes (5): 5. Application Services & Utilities, `ExcelExporter` *(Service / Export Utility)*, Key Responsibilities:, Key Responsibilities & Methods:, `Statistics` *(Service / Calculation Component)*
 
-### Community 16 - "3. Goals & Savings Domain"
-Cohesion: 0.50
-Nodes (4): 3. Goals & Savings Domain, `Contribution`, `Goal`, Key Methods:
+### Community 16 - "1. Core Domain Entities & Inheritance"
+Cohesion: 0.40
+Nodes (5): 1. Core Domain Entities & Inheritance, `Expense` *(Derived from FinancialRecord)*, `FinancialRecord` *(Abstract Base Class)*, `Income` *(Derived from FinancialRecord)*, Key Methods:
 
 ## Knowledge Gaps
-- **34 isolated node(s):** `graphify`, `Workflow: graphify`, `1. Architecture Objective`, `2. Main Structure`, `3.1 Logic` (+29 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 53 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **39 isolated node(s):** `graphify`, `Workflow: graphify`, `1. Architecture Objective`, `2. Main Structure`, `3.1 Logic` (+34 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 59 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Detailed Class Specifications` connect `Detailed Class Specifications` to `Class Diagram Design`, `3. Goals & Savings Domain`, `5. Application Services & Utilities`?**
-  _High betweenness centrality (0.097) - this node is a cross-community bridge._
+- **Why does `Detailed Class Specifications` connect `Detailed Class Specifications` to `Class Diagram Design`, `1. Core Domain Entities & Inheritance`, `5. Application Services & Utilities`?**
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
 - **Why does `Class Diagram Design` connect `Class Diagram Design` to `Detailed Class Specifications`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Why does `1. Core Domain Entities & Inheritance` connect `1. Core Domain Entities & Inheritance` to `Detailed Class Specifications`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `User` (e.g. with `PostgreSQL` and `Smart Finance Manager`) actually correct?**
   _`User` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `graphify`, `Workflow: graphify`, `1. Architecture Objective` to the rest of the system?**
-  _34 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Detailed Class Specifications` be split into smaller, more focused modules?**
+  _39 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Architecture.md` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
