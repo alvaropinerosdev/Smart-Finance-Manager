@@ -1,0 +1,2 @@
+# Core Production Dependencies
+# The domain core layer is designed with zero external dependencies (pure Python standard library).
