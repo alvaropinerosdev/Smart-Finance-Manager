@@ -1,19 +1,18 @@
 {
   "0": "FinancialRecord",
-  "1": "SmartFinanceError",
+  "1": "exceptions.py",
   "2": "src/__init__.py",
   "3": "Architecture.md",
   "4": "Detailed Class Specifications",
   "5": "rules/graphify.md",
   "6": "workflows/graphify.md",
-  "7": "3. Components",
-  "8": "Class Diagram Design",
-  "9": "5. Application Services & Utilities",
+  "7": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+  "8": "Expense",
+  "9": "FinancialRecord",
   "10": "calculations/__init__.py",
-  "11": "entities/__init__.py",
+  "11": "expense.py",
   "12": "logic/__init__.py",
   "13": "rules/__init__.py",
   "14": "tests/__init__.py",
-  "15": "unit/__init__.py",
-  "16": "3. Goals & Savings Domain"
+  "15": "unit/__init__.py"
 }

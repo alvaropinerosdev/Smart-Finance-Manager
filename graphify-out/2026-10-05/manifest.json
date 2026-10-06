@@ -126,21 +126,15 @@
     "semantic_hash": ""
   },
   "src/logic/entities/financial_record.py": {
-    "mtime": 1791249826.1990285,
-    "seen": 1791249859.187468,
-    "ast_hash": "d45d380f3daddde9caf8dd8067f6b1d0",
+    "mtime": 1791249294.2408764,
+    "seen": 1791249318.292483,
+    "ast_hash": "afc6a1f43348c417203b6b1247eed067",
     "semantic_hash": ""
   },
   "src/logic/entities/income.py": {
     "mtime": 1791249163.9740334,
     "seen": 1791249318.292483,
     "ast_hash": "89aa11fe0ab7e14ba78d7dad752aff13",
-    "semantic_hash": ""
-  },
-  "tests/unit/test_financial_records.py": {
-    "mtime": 1791249834.057345,
-    "seen": 1791249859.187468,
-    "ast_hash": "3421155fd0d62b309d976ec59b0dfa37",
     "semantic_hash": ""
   }
 }

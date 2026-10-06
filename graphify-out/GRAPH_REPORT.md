@@ -1,55 +1,57 @@
-# Graph Report - Smart_Finance_Manager  (2026-10-04)
+# Graph Report - Smart_Finance_Manager  (2026-10-05)
 
 ## Corpus Check
-- 15 files · ~33,740 words
+- 20 files · ~35,293 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .ini 1)
 
 ## Summary
-- 86 nodes · 82 edges · 17 communities (8 shown, 9 thin omitted)
-- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.92)
+- 164 nodes · 244 edges · 18 communities (10 shown, 8 thin omitted)
+- Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 44 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0ff4129a`
+- Built from commit: `0737d7e8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - FinancialRecord
-- SmartFinanceError
+- exceptions.py
 - Architecture.md
 - Detailed Class Specifications
 - rules/graphify.md
 - workflows/graphify.md
-- 3. Components
-- Class Diagram Design
-- 5. Application Services & Utilities
-- 3. Goals & Savings Domain
+- 2. Engineering Incident & Lessons Learned (Interview Case Study)
+- Expense
+- FinancialRecord
+- expense.py
+- Income
+- .test_cannot_instantiate_abstract_base_class
 
 ## God Nodes (most connected - your core abstractions)
-1. `FinancialRecord` - 8 edges
-2. `User` - 7 edges
-3. `Detailed Class Specifications` - 6 edges
-4. `Smart Finance Manager` - 6 edges
-5. `SmartFinanceError` - 5 edges
-6. `DomainValidationError` - 4 edges
-7. `test_smoke_domain_exceptions_import()` - 4 edges
-8. `Smart Finance Manager — System Architecture` - 4 edges
-9. `3. Components` - 4 edges
-10. `4. Intermediaries` - 4 edges
+1. `FinancialRecord` - 21 edges
+2. `Income` - 17 edges
+3. `Expense` - 13 edges
+4. `DomainValidationError` - 12 edges
+5. `TestFinancialRecordValidation` - 11 edges
+6. `FinancialRecord` - 8 edges
+7. `User` - 7 edges
+8. `Detailed Class Specifications` - 6 edges
+9. `Smart Finance Manager` - 6 edges
+10. `SmartFinanceError` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `User` --implements--> `PostgreSQL`  [INFERRED]
-  Docs/DataBase.md → README.md
-- `test_smoke_domain_exceptions_import()` --uses--> `SmartFinanceError`  [INFERRED]
-  tests/unit/test_smoke.py → src/exceptions.py
-- `test_smoke_domain_exceptions_import()` --uses--> `DomainValidationError`  [INFERRED]
-  tests/unit/test_smoke.py → src/exceptions.py
-- `Database UML` --references--> `FinancialRecord`  [EXTRACTED]
-  Docs/Images/database_uml.png → Docs/DataBase.md
-- `Console Scope V1` --conceptually_related_to--> `FinancialRecord`  [INFERRED]
-  README.md → Docs/DataBase.md
+- ``entities/`` --references--> `FinancialRecord`  [INFERRED]
+  Docs/Architecture.md → src/logic/entities/financial_record.py
+- ``Expense` *(Derived from FinancialRecord)*` --references--> `Expense`  [INFERRED]
+  Docs/ClassDiagram.md → src/logic/entities/expense.py
+- `Architectural Notes` --references--> `FinancialRecord`  [INFERRED]
+  Docs/ClassDiagram.md → src/logic/entities/financial_record.py
+- `Implementation & Mapping Guidelines` --references--> `FinancialRecord`  [INFERRED]
+  Docs/ClassDiagram.md → src/logic/entities/financial_record.py
+- `Main Classes` --references--> `FinancialRecord`  [INFERRED]
+  Docs/ClassDiagram.md → src/logic/entities/financial_record.py
 
 ## Import Cycles
 - None detected.
@@ -58,55 +60,67 @@
 - **Core Domain Entities** — docs_db_user, docs_db_financialrecord, docs_db_category, docs_db_goal [EXTRACTED 1.00]
 - **Audit & History System** — docs_db_modificationhistory, docs_db_polymorphic_history, docs_db_soft_delete [INFERRED 0.95]
 
-## Communities (17 total, 9 thin omitted)
+## Communities (18 total, 8 thin omitted)
 
 ### Community 0 - "FinancialRecord"
 Cohesion: 0.15
 Nodes (18): Category, Contribution, Expense, FinancialRecord, FinancialReport, Goal, Income, ModificationHistory (+10 more)
 
-### Community 1 - "SmartFinanceError"
-Cohesion: 0.19
-Nodes (11): Exception, DomainValidationError, Base Exceptions for Smart Finance Manager, Raised when an entity or business invariant validation fails., Base exception for all domain and application errors., SmartFinanceError, Smoke test to verify that the testing environment, test runner, and project…, Verify that pytest is functioning properly. (+3 more)
+### Community 1 - "exceptions.py"
+Cohesion: 0.20
+Nodes (9): Exception, Base Exceptions for Smart Finance Manager, Base exception for all domain and application errors., SmartFinanceError, Smoke test to verify that the testing environment, test runner, and project…, Verify that pytest is functioning properly., Verify that domain exceptions in src can be imported and instantiated., test_smoke_domain_exceptions_import() (+1 more)
 
 ### Community 3 - "Architecture.md"
-Cohesion: 0.29
-Nodes (6): 4.1 Validators, 4.2 Mappers, 4.3 Router, 4. Intermediaries, 5. Services, 6. General Flow
+Cohesion: 0.14
+Nodes (13): 1. Architecture Objective, 2. Main Structure, 3.1 Logic, 3. Components, 4.1 Validators, 4.2 Mappers, 4.3 Router, 4. Intermediaries (+5 more)
 
 ### Community 4 - "Detailed Class Specifications"
-Cohesion: 0.14
-Nodes (14): 1. Core Domain Entities & Inheritance, 2. User & Classification Domain, 4. Reporting & Audit Domain, `Category`, Detailed Class Specifications, `Expense` *(Derived from FinancialRecord)*, `FinancialRecord` *(Abstract Base Class)*, `FinancialReport` (+6 more)
+Cohesion: 0.11
+Nodes (18): 2. User & Classification Domain, 3. Goals & Savings Domain, 4. Reporting & Audit Domain, 5. Application Services & Utilities, `Category`, `Contribution`, Detailed Class Specifications, `ExcelExporter` *(Service / Export Utility)* (+10 more)
 
-### Community 7 - "3. Components"
-Cohesion: 0.29
-Nodes (7): 1. Architecture Objective, 2. Main Structure, 3.1 Logic, 3. Components, `entities/`, `rules/`, Smart Finance Manager — System Architecture
+### Community 7 - "2. Engineering Incident & Lessons Learned (Interview Case Study)"
+Cohesion: 0.25
+Nodes (7): 1. Branch Strategy Overview, 2. Engineering Incident & Lessons Learned (Interview Case Study), 3. Key Takeaways for Technical Interviews, Corrective Action Taken, Git Workflow & Branching Strategy Guidelines, Technical Analysis & Root Cause, The Scenario
 
-### Community 8 - "Class Diagram Design"
-Cohesion: 0.29
-Nodes (6): Architectural Notes, Class Diagram Design, Class Relationships & Associations, Implementation & Mapping Guidelines, Introduction, Main Classes
+### Community 8 - "Expense"
+Cohesion: 0.31
+Nodes (8): Architectural Notes, Class Diagram Design, Class Relationships & Associations, Implementation & Mapping Guidelines, Introduction, Main Classes, Expense, Concrete financial record representing an expense (negative cash flow).…
 
-### Community 9 - "5. Application Services & Utilities"
-Cohesion: 0.40
-Nodes (5): 5. Application Services & Utilities, `ExcelExporter` *(Service / Export Utility)*, Key Responsibilities:, Key Responsibilities & Methods:, `Statistics` *(Service / Calculation Component)*
+### Community 9 - "FinancialRecord"
+Cohesion: 0.16
+Nodes (16): ABC, 1. Core Domain Entities & Inheritance, `Expense` *(Derived from FinancialRecord)*, `FinancialRecord` *(Abstract Base Class)*, `Income` *(Derived from FinancialRecord)*, Key Methods:, DomainValidationError, Raised when an entity or business invariant validation fails. (+8 more)
 
-### Community 16 - "3. Goals & Savings Domain"
+### Community 11 - "expense.py"
+Cohesion: 0.13
+Nodes (10): logic_entities_expense, logic_entities_financial_record, logic_entities_income, Decimal, Expense Entity Module. Specializes FinancialRecord for outgoing monetary…, Return negative signed amount representing money outflow., Decimal, Income Entity Module. Specializes FinancialRecord for incoming monetary… (+2 more)
+
+### Community 16 - "Income"
+Cohesion: 0.13
+Nodes (19): decimal, fixture, logic_entities, parametrize, pytest, Income, Concrete financial record representing an income (positive cash flow). Inherits…, datetime (+11 more)
+
+### Community 17 - ".test_cannot_instantiate_abstract_base_class"
 Cohesion: 0.50
-Nodes (4): 3. Goals & Savings Domain, `Contribution`, `Goal`, Key Methods:
+Nodes (3): Tests ensuring FinancialRecord behaves as an abstract base class., FinancialRecord is abstract and cannot be instantiated directly., TestFinancialRecordABC
 
 ## Knowledge Gaps
-- **34 isolated node(s):** `graphify`, `Workflow: graphify`, `1. Architecture Objective`, `2. Main Structure`, `3.1 Logic` (+29 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 53 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **32 isolated node(s):** `graphify`, `Workflow: graphify`, `1. Architecture Objective`, `2. Main Structure`, `3.1 Logic` (+27 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 75 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Detailed Class Specifications` connect `Detailed Class Specifications` to `Class Diagram Design`, `3. Goals & Savings Domain`, `5. Application Services & Utilities`?**
-  _High betweenness centrality (0.097) - this node is a cross-community bridge._
-- **Why does `Class Diagram Design` connect `Class Diagram Design` to `Detailed Class Specifications`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Are the 2 inferred relationships involving `User` (e.g. with `PostgreSQL` and `Smart Finance Manager`) actually correct?**
-  _`User` has 2 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `FinancialRecord` connect `FinancialRecord` to `Expense`, `Income`, `Architecture.md`, `.test_cannot_instantiate_abstract_base_class`?**
+  _High betweenness centrality (0.296) - this node is a cross-community bridge._
+- **Why does `Detailed Class Specifications` connect `Detailed Class Specifications` to `Expense`, `FinancialRecord`?**
+  _High betweenness centrality (0.150) - this node is a cross-community bridge._
+- **Why does `Income` connect `Income` to `Expense`, `FinancialRecord`, `expense.py`?**
+  _High betweenness centrality (0.145) - this node is a cross-community bridge._
+- **Are the 9 inferred relationships involving `FinancialRecord` (e.g. with ``entities/`` and `Architectural Notes`) actually correct?**
+  _`FinancialRecord` has 9 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 13 inferred relationships involving `Income` (e.g. with `Architectural Notes` and `Class Relationships & Associations`) actually correct?**
+  _`Income` has 13 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 9 inferred relationships involving `Expense` (e.g. with `Architectural Notes` and `Class Relationships & Associations`) actually correct?**
+  _`Expense` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `graphify`, `Workflow: graphify`, `1. Architecture Objective` to the rest of the system?**
-  _34 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Detailed Class Specifications` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _32 weakly-connected nodes found - possible documentation gaps or missing edges._

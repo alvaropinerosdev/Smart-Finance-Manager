@@ -92,7 +92,7 @@ Represents a cash inflow. Specializes `FinancialRecord` by establishing the reco
 
 - **Inherits**: All attributes and common lifecycle methods from `FinancialRecord`.
 - **Specialization**:
-  - Sets `type = RecordType.INCOME`.
+  - Sets `type = String`.
   - `signed_amount() -> Decimal`: Returns the amount as a positive value (`+amount`).
 
 ---
@@ -102,7 +102,7 @@ Represents a cash outflow. Specializes `FinancialRecord` by establishing the rec
 
 - **Inherits**: All attributes and common lifecycle methods from `FinancialRecord`.
 - **Specialization**:
-  - Sets `type = RecordType.EXPENSE`.
+  - Sets `type = String`.
   - `signed_amount() -> Decimal`: Returns the amount as a negative value (`-amount`).
 
 ---
