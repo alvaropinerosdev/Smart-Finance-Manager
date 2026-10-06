@@ -47,6 +47,71 @@
       "source_location": "L6"
     },
     {
+      "id": "src_logic_entities_income_income",
+      "label": "Income",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "income",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testexpenseentity",
+      "label": "TestExpenseEntity",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "testexpenseentity",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L93"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "label": "TestFinancialRecordValidation",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "testfinancialrecordvalidation",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L135"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testincomeentity",
+      "label": "TestIncomeEntity",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "testincomeentity",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordabc",
+      "label": "TestFinancialRecordABC",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 17,
+      "community_name": ".test_cannot_instantiate_abstract_base_class",
+      "file_type": "code",
+      "norm_label": "testfinancialrecordabc",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L30"
+    },
+    {
       "id": "src_logic_entities_expense_expense",
       "label": "Expense",
       "_callable": true,
@@ -57,19 +122,6 @@
       "file_type": "code",
       "norm_label": "expense",
       "source_file": "src/logic/entities/expense.py",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_logic_entities_income_income",
-      "label": "Income",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "code",
-      "norm_label": "income",
-      "source_file": "src/logic/entities/income.py",
       "source_location": "L12"
     },
     {
@@ -139,12 +191,216 @@
       "label": ".signed_amount()",
       "_callable": true,
       "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
+      "community": 11,
+      "community_name": "expense.py",
       "file_type": "code",
       "norm_label": ".signed_amount()",
       "source_file": "src/logic/entities/income.py",
       "source_location": "L20"
+    },
+    {
+      "id": "tests_unit_test_financial_records_sample_category_id",
+      "label": "sample_category_id()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "sample_category_id()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "tests_unit_test_financial_records_sample_datetime",
+      "label": "sample_datetime()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "sample_datetime()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "tests_unit_test_financial_records_sample_user_id",
+      "label": "sample_user_id()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "sample_user_id()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L16"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
+      "label": ".test_create_expense_success()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_create_expense_success()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L96"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testexpenseentity_test_expense_signed_amount_is_negative",
+      "label": ".test_expense_signed_amount_is_negative()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_expense_signed_amount_is_negative()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L120"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "label": ".test_reject_invalid_currency()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_invalid_currency()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L172"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_datetime",
+      "label": ".test_reject_invalid_datetime()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_invalid_datetime()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L217"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_ids",
+      "label": ".test_reject_invalid_ids()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_invalid_ids()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L188"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_decimal_amount",
+      "label": ".test_reject_non_decimal_amount()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_non_decimal_amount()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L159"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_currency",
+      "label": ".test_reject_non_string_currency()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_non_string_currency()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L229"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_type",
+      "label": ".test_reject_non_string_type()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_non_string_type()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L241"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type",
+      "label": ".test_reject_subclass_without_type()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_subclass_without_type()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L254"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type_signed_amount",
+      "label": "signed_amount()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "signed_amount()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L258"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "label": ".test_reject_zero_or_negative_amount()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_reject_zero_or_negative_amount()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L138"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testincomeentity_test_create_income_success",
+      "label": ".test_create_income_success()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_create_income_success()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L50"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testincomeentity_test_income_signed_amount_is_positive",
+      "label": ".test_income_signed_amount_is_positive()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_income_signed_amount_is_positive()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "label": ".test_cannot_instantiate_abstract_base_class()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 17,
+      "community_name": ".test_cannot_instantiate_abstract_base_class",
+      "file_type": "code",
+      "norm_label": ".test_cannot_instantiate_abstract_base_class()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L33"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_init",
@@ -168,7 +424,7 @@
       "file_type": "code",
       "norm_label": ".signed_amount()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L109"
+      "source_location": "L110"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_validate_amount",
@@ -180,7 +436,7 @@
       "file_type": "code",
       "norm_label": "._validate_amount()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L78"
+      "source_location": "L79"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_validate_currency",
@@ -192,7 +448,7 @@
       "file_type": "code",
       "norm_label": "._validate_currency()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L85"
+      "source_location": "L86"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_validate_datetime",
@@ -204,7 +460,7 @@
       "file_type": "code",
       "norm_label": "._validate_datetime()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L104"
+      "source_location": "L105"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_validate_ids",
@@ -216,7 +472,7 @@
       "file_type": "code",
       "norm_label": "._validate_ids()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L95"
+      "source_location": "L96"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_validate_type",
@@ -228,7 +484,7 @@
       "file_type": "code",
       "norm_label": "._validate_type()",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L68"
+      "source_location": "L69"
     },
     {
       "id": "exception",
@@ -352,6 +608,28 @@
       "source_location": ""
     },
     {
+      "id": "src_logic_entities_income",
+      "label": "income.py",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "expense.py",
+      "file_type": "code",
+      "norm_label": "income.py",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_logic_entities_income_py_decimal",
+      "label": "Decimal",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "expense.py",
+      "file_type": "code",
+      "norm_label": "decimal",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_logic_entities_init",
       "label": "entities/__init__.py",
       "_origin": "ast",
@@ -382,6 +660,28 @@
       "file_type": "rationale",
       "norm_label": "return negative signed amount representing money outflow.",
       "source_file": "src/logic/entities/expense.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "src_logic_entities_income_rationale_1",
+      "label": "Income Entity Module. Specializes FinancialRecord for incoming monetary\u2026",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "expense.py",
+      "file_type": "rationale",
+      "norm_label": "income entity module. specializes financialrecord for incoming monetary...",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_logic_entities_income_rationale_21",
+      "label": "Return positive signed amount representing money inflow.",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "expense.py",
+      "file_type": "rationale",
+      "norm_label": "return positive signed amount representing money inflow.",
+      "source_file": "src/logic/entities/income.py",
       "source_location": "L21"
     },
     {
@@ -438,6 +738,138 @@
       "norm_label": "unit/__init__.py",
       "source_file": "tests/unit/__init__.py",
       "source_location": "L1"
+    },
+    {
+      "id": "fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "parametrize",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_unit_test_financial_records",
+      "label": "test_financial_records.py",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "test_financial_records.py",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_unit_test_financial_records_py_datetime",
+      "label": "datetime",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_unit_test_financial_records_py_uuid",
+      "label": "UUID",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "uuid",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_logic_entities_income_rationale_13",
+      "label": "Concrete financial record representing an income (positive cash flow). Inherits\u2026",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "concrete financial record representing an income (positive cash flow). inherits...",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_1",
+      "label": "Unit tests for FinancialRecord, Income, and Expense entities.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "unit tests for financialrecord, income, and expense entities.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_136",
+      "label": "Tests verifying validation invariants on financial records.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "tests verifying validation invariants on financial records.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L136"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_48",
+      "label": "Tests verifying Income entity behavior and signed amount.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "tests verifying income entity behavior and signed amount.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L48"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_94",
+      "label": "Tests verifying Expense entity behavior and signed amount.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "tests verifying expense entity behavior and signed amount.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L94"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_31",
+      "label": "Tests ensuring FinancialRecord behaves as an abstract base class.",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": ".test_cannot_instantiate_abstract_base_class",
+      "file_type": "rationale",
+      "norm_label": "tests ensuring financialrecord behaves as an abstract base class.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_36",
+      "label": "FinancialRecord is abstract and cannot be instantiated directly.",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": ".test_cannot_instantiate_abstract_base_class",
+      "file_type": "rationale",
+      "norm_label": "financialrecord is abstract and cannot be instantiated directly.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L36"
     },
     {
       "id": "src_init",
@@ -619,18 +1051,6 @@
       "source_location": "L1"
     },
     {
-      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
-      "label": "1. Core Domain Entities & Inheritance",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. core domain entities & inheritance",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L59"
-    },
-    {
       "id": "docs_classdiagram_2_user_classification_domain",
       "label": "2. User & Classification Domain",
       "_origin": "ast",
@@ -727,30 +1147,6 @@
       "source_location": "L238"
     },
     {
-      "id": "docs_classdiagram_expense_derived_from_financialrecord",
-      "label": "`Expense` *(Derived from FinancialRecord)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`expense` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L100"
-    },
-    {
-      "id": "docs_classdiagram_financialrecord_abstract_base_class",
-      "label": "`FinancialRecord` *(Abstract Base Class)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`financialrecord` *(abstract base class)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L61"
-    },
-    {
       "id": "docs_classdiagram_financialreport",
       "label": "`FinancialReport`",
       "_origin": "ast",
@@ -773,30 +1169,6 @@
       "norm_label": "`goal`",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L147"
-    },
-    {
-      "id": "docs_classdiagram_income_derived_from_financialrecord",
-      "label": "`Income` *(Derived from FinancialRecord)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`income` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L90"
-    },
-    {
-      "id": "docs_classdiagram_key_methods",
-      "label": "Key Methods:",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "key methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L80"
     },
     {
       "id": "docs_classdiagram_key_methods_137",
@@ -1047,28 +1419,6 @@
       "source_location": "L26"
     },
     {
-      "id": "src_logic_entities_income",
-      "label": "income.py",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "code",
-      "norm_label": "income.py",
-      "source_file": "src/logic/entities/income.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_logic_entities_income_py_decimal",
-      "label": "Decimal",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "code",
-      "norm_label": "decimal",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "docs_classdiagram",
       "label": "ClassDiagram.md",
       "_origin": "ast",
@@ -1164,39 +1514,6 @@
       "source_location": "L13"
     },
     {
-      "id": "src_logic_entities_income_rationale_1",
-      "label": "Income Entity Module. Specializes FinancialRecord for incoming monetary\u2026",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "rationale",
-      "norm_label": "income entity module. specializes financialrecord for incoming monetary...",
-      "source_file": "src/logic/entities/income.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_logic_entities_income_rationale_13",
-      "label": "Concrete financial record representing an income (positive cash flow). Inherits\u2026",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "rationale",
-      "norm_label": "concrete financial record representing an income (positive cash flow). inherits...",
-      "source_file": "src/logic/entities/income.py",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_logic_entities_income_rationale_21",
-      "label": "Return positive signed amount representing money inflow.",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "rationale",
-      "norm_label": "return positive signed amount representing money inflow.",
-      "source_file": "src/logic/entities/income.py",
-      "source_location": "L21"
-    },
-    {
       "id": "abc",
       "label": "ABC",
       "_origin": "ast",
@@ -1204,17 +1521,6 @@
       "community_name": "FinancialRecord",
       "file_type": "code",
       "norm_label": "abc",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "datetime",
-      "label": "datetime",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "FinancialRecord",
-      "file_type": "code",
-      "norm_label": "datetime",
       "source_file": "",
       "source_location": ""
     },
@@ -1230,6 +1536,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_logic_entities_financial_record_py_datetime",
+      "label": "datetime",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_logic_entities_financial_record_py_decimal",
       "label": "Decimal",
       "_origin": "ast",
@@ -1241,7 +1558,7 @@
       "source_location": ""
     },
     {
-      "id": "uuid",
+      "id": "src_logic_entities_financial_record_py_uuid",
       "label": "UUID",
       "_origin": "ast",
       "community": 9,
@@ -1250,6 +1567,66 @@
       "norm_label": "uuid",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "label": "1. Core Domain Entities & Inheritance",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. core domain entities & inheritance",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "docs_classdiagram_expense_derived_from_financialrecord",
+      "label": "`Expense` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`expense` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "docs_classdiagram_financialrecord_abstract_base_class",
+      "label": "`FinancialRecord` *(Abstract Base Class)*",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`financialrecord` *(abstract base class)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "docs_classdiagram_income_derived_from_financialrecord",
+      "label": "`Income` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`income` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "docs_classdiagram_key_methods",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L80"
     },
     {
       "id": "src_exceptions_rationale_12",
@@ -1274,7 +1651,7 @@
       "source_location": "L1"
     },
     {
-      "id": "src_logic_entities_financial_record_rationale_110",
+      "id": "src_logic_entities_financial_record_rationale_111",
       "label": "Return the signed monetary impact of the transaction. Must be implemented by\u2026",
       "_origin": "ast",
       "community": 9,
@@ -1282,7 +1659,7 @@
       "file_type": "rationale",
       "norm_label": "return the signed monetary impact of the transaction. must be implemented by...",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L110"
+      "source_location": "L111"
     },
     {
       "id": "src_logic_entities_financial_record_rationale_17",
@@ -1478,6 +1855,7 @@
     {
       "id": "logic_entities_expense",
       "label": "logic_entities_expense",
+      "_origin": "semantic",
       "community": 11,
       "community_name": "expense.py",
       "external": true,
@@ -1489,6 +1867,7 @@
     {
       "id": "logic_entities_financial_record",
       "label": "logic_entities_financial_record",
+      "_origin": "semantic",
       "community": 11,
       "community_name": "expense.py",
       "external": true,
@@ -1500,6 +1879,7 @@
     {
       "id": "logic_entities_income",
       "label": "logic_entities_income",
+      "_origin": "semantic",
       "community": 11,
       "community_name": "expense.py",
       "external": true,
@@ -1511,11 +1891,45 @@
     {
       "id": "typing",
       "label": "typing",
+      "_origin": "semantic",
       "community": 9,
       "community_name": "FinancialRecord",
       "external": true,
       "file_type": "concept",
       "norm_label": "typing",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "decimal",
+      "label": "decimal",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "decimal",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "logic_entities",
+      "label": "logic_entities",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "logic_entities",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "pytest",
+      "label": "pytest",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "pytest",
       "source_file": "",
       "type": "external"
     }
@@ -1578,12 +1992,60 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L55",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_category_id",
+      "target": "fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_datetime",
+      "target": "fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_user_id",
+      "target": "fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "target": "parametrize",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L171",
       "weight": 1.0
     },
     {
       "source": "src_logic_entities_financial_record_financialrecord_init",
-      "target": "datetime",
+      "target": "src_logic_entities_financial_record_py_datetime",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1595,7 +2057,7 @@
     },
     {
       "source": "src_logic_entities_financial_record_financialrecord_init",
-      "target": "uuid",
+      "target": "src_logic_entities_financial_record_py_uuid",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1607,14 +2069,26 @@
     },
     {
       "source": "src_logic_entities_financial_record_financialrecord_validate_ids",
-      "target": "uuid",
+      "target": "src_logic_entities_financial_record_py_uuid",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L95",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "pytest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -1655,7 +2129,7 @@
     },
     {
       "source": "src_logic_entities_financial_record",
-      "target": "uuid",
+      "target": "src_logic_entities_financial_record_py_uuid",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1691,7 +2165,7 @@
     },
     {
       "source": "src_logic_entities_financial_record",
-      "target": "datetime",
+      "target": "src_logic_entities_financial_record_py_datetime",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1774,6 +2248,66 @@
       "weight": 1.0
     },
     {
+      "source": "tests_unit_test_financial_records",
+      "target": "src_exceptions",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "logic_entities",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "decimal",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "tests_unit_test_smoke",
       "target": "src_exceptions",
       "relation": "imports_from",
@@ -1806,19 +2340,319 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
       "source": "src_logic_entities_financial_record_financialrecord_validate_datetime",
-      "target": "datetime",
+      "target": "src_logic_entities_financial_record_py_datetime",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L104",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_expense_signed_amount_is_negative",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_expense_signed_amount_is_negative",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_datetime",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_ids",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_ids",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_decimal_amount",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_decimal_amount",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_currency",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_currency",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_type",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_type",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_create_income_success",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_create_income_success",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_income_signed_amount_is_positive",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_income_signed_amount_is_positive",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -1842,7 +2676,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L109",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -1855,6 +2689,42 @@
       "context": "return_type",
       "source_file": "src/logic/entities/income.py",
       "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_category_id",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_datetime",
+      "target": "tests_unit_test_financial_records_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_sample_user_id",
+      "target": "tests_unit_test_financial_records_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -2474,6 +3344,94 @@
       "weight": 1.0
     },
     {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_sample_user_id",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_sample_category_id",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_sample_datetime",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_testfinancialrecordabc",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_testincomeentity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "tests_unit_test_financial_records_testexpenseentity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type_signed_amount",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
       "source": "tests_unit_test_smoke",
       "target": "tests_unit_test_smoke_test_smoke_domain_exceptions_import",
       "relation": "contains",
@@ -2569,7 +3527,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L104",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
@@ -2580,7 +3538,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L109",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -2602,7 +3560,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -2613,7 +3571,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -2624,7 +3582,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -2635,7 +3593,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L95",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -2647,6 +3605,149 @@
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/income.py",
       "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity",
+      "target": "tests_unit_test_financial_records_testexpenseentity_test_expense_signed_amount_is_negative",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity",
+      "target": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordabc",
+      "target": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_decimal_amount",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_ids",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_datetime",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_currency",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_type",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_subclass_without_type",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity",
+      "target": "tests_unit_test_financial_records_testincomeentity_test_create_income_success",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity",
+      "target": "tests_unit_test_financial_records_testincomeentity_test_income_signed_amount_is_positive",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -2727,14 +3828,14 @@
       "weight": 1.0
     },
     {
-      "source": "src_logic_entities_financial_record_rationale_110",
+      "source": "src_logic_entities_financial_record_rationale_111",
       "target": "src_logic_entities_financial_record_financialrecord_signed_amount",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L110",
+      "source_location": "L111",
       "weight": 1.0
     },
     {
@@ -2793,6 +3894,72 @@
       "weight": 1.0
     },
     {
+      "source": "tests_unit_test_financial_records_rationale_1",
+      "target": "tests_unit_test_financial_records",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_rationale_136",
+      "target": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_rationale_31",
+      "target": "tests_unit_test_financial_records_testfinancialrecordabc",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_rationale_36",
+      "target": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_rationale_48",
+      "target": "tests_unit_test_financial_records_testincomeentity",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_rationale_94",
+      "target": "tests_unit_test_financial_records_testexpenseentity",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
       "source": "tests_unit_test_smoke_rationale_1",
       "target": "tests_unit_test_smoke",
       "relation": "rationale_for",
@@ -2834,7 +4001,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L53",
+      "source_location": "L56",
       "weight": 1.0
     },
     {
@@ -2846,7 +4013,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L80",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -2858,7 +4025,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L87",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -2870,7 +4037,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L106",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -2882,7 +4049,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L97",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -2894,7 +4061,163 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L70",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
+      "target": "src_logic_entities_expense_expense",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testexpenseentity_test_expense_signed_amount_is_negative",
+      "target": "src_logic_entities_expense_expense",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "target": "src_logic_entities_financial_record_financialrecord",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_datetime",
+      "target": "src_logic_entities_expense_expense",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_ids",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_decimal_amount",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_currency",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_non_string_type",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_zero_or_negative_amount",
+      "target": "src_logic_entities_expense_expense",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_create_income_success",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records_testincomeentity_test_income_signed_amount_is_positive",
+      "target": "src_logic_entities_income_income",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -3109,7 +4432,18 @@
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L53",
+      "source_location": "L56",
+      "weight": 0.8
+    },
+    {
+      "source": "tests_unit_test_financial_records_testfinancialrecordvalidation",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "uses",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L141",
       "weight": 0.8
     },
     {
@@ -3394,5 +4728,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "93addf4138d58ebb9e0c089e7104fc6ac556fcc0"
+  "built_at_commit": "0737d7e8d8faaa487a28892e50d3a2046e8a032d"
 }

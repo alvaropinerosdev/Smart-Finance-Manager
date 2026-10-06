@@ -48,11 +48,12 @@ class FinancialRecord(ABC):
         self.category_id: UUID = category_id
 
         if type is not None:
-            self.type = str(type).strip().upper()
-        elif not hasattr(self, "type"):
+            self._validate_type(type)
+            self.type = type.strip().upper()
+        elif hasattr(self, "type") and self.type is not None:
+            self._validate_type(self.type)
+        else:
             raise DomainValidationError("Record type must be defined.")
-
-        self._validate_type(self.type)
 
         self.amount: Decimal = amount
         self.currency: str = currency.strip().upper()
