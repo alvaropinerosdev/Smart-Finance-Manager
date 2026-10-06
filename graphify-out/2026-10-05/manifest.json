@@ -1,7 +1,7 @@
 {
   "Docs/DataBase.md": {
-    "mtime": 1791248690.6920638,
-    "seen": 1791249318.292483,
+    "mtime": 1790693049.138551,
+    "seen": 1790698816.5533235,
     "ast_hash": "b68d6adaba6424faaa6b3db541e8830b",
     "semantic_hash": ""
   },
@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "Docs/ClassDiagram.md": {
-    "mtime": 1791249257.0640347,
-    "seen": 1791249318.292483,
-    "ast_hash": "93af7dd738d8bbd22314902c79e2a7df",
+    "mtime": 1790868705.594909,
+    "seen": 1790868922.2560415,
+    "ast_hash": "b21580e1218177c82572cc5bddc66bb4",
     "semantic_hash": ""
   },
   "Docs/Images/Class Diagram.png": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "src/logic/entities/__init__.py": {
-    "mtime": 1791249163.9670346,
-    "seen": 1791249318.292483,
-    "ast_hash": "77bb1763b49071f83602df7449ba0262",
+    "mtime": 1791088065.1652415,
+    "seen": 1791171851.2561848,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "src/logic/rules/__init__.py": {
@@ -117,24 +117,6 @@
     "mtime": 1791172933.7887206,
     "seen": 1791172944.1946414,
     "ast_hash": "363fa868ca53cdbaa7c4570b3d446f47",
-    "semantic_hash": ""
-  },
-  "src/logic/entities/expense.py": {
-    "mtime": 1791249163.9730337,
-    "seen": 1791249318.292483,
-    "ast_hash": "92c72f80f4e6b847e133e0e617b05ab7",
-    "semantic_hash": ""
-  },
-  "src/logic/entities/financial_record.py": {
-    "mtime": 1791249294.2408764,
-    "seen": 1791249318.292483,
-    "ast_hash": "afc6a1f43348c417203b6b1247eed067",
-    "semantic_hash": ""
-  },
-  "src/logic/entities/income.py": {
-    "mtime": 1791249163.9740334,
-    "seen": 1791249318.292483,
-    "ast_hash": "89aa11fe0ab7e14ba78d7dad752aff13",
     "semantic_hash": ""
   }
 }
