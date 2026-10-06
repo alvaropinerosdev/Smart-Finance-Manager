@@ -34,19 +34,6 @@
   },
   "nodes": [
     {
-      "id": "src_exceptions_smartfinanceerror",
-      "label": "SmartFinanceError",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "exceptions.py",
-      "file_type": "code",
-      "norm_label": "smartfinanceerror",
-      "source_file": "src/exceptions.py",
-      "source_location": "L6"
-    },
-    {
       "id": "src_logic_entities_income_income",
       "label": "Income",
       "_callable": true,
@@ -71,6 +58,19 @@
       "norm_label": "testexpenseentity",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L93"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordabc",
+      "label": "TestFinancialRecordABC",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "testfinancialrecordabc",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L30"
     },
     {
       "id": "tests_unit_test_financial_records_testfinancialrecordvalidation",
@@ -99,25 +99,12 @@
       "source_location": "L47"
     },
     {
-      "id": "tests_unit_test_financial_records_testfinancialrecordabc",
-      "label": "TestFinancialRecordABC",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": ".test_cannot_instantiate_abstract_base_class",
-      "file_type": "code",
-      "norm_label": "testfinancialrecordabc",
-      "source_file": "tests/unit/test_financial_records.py",
-      "source_location": "L30"
-    },
-    {
       "id": "src_logic_entities_expense_expense",
       "label": "Expense",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 8,
+      "community": 4,
       "community_name": "Expense",
       "file_type": "code",
       "norm_label": "expense",
@@ -138,6 +125,19 @@
       "source_location": "L11"
     },
     {
+      "id": "src_exceptions_smartfinanceerror",
+      "label": "SmartFinanceError",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "code",
+      "norm_label": "smartfinanceerror",
+      "source_file": "src/exceptions.py",
+      "source_location": "L6"
+    },
+    {
       "id": "src_logic_entities_financial_record_financialrecord",
       "label": "FinancialRecord",
       "_callable": true,
@@ -156,7 +156,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "code",
       "norm_label": "test_smoke_domain_exceptions_import()",
       "source_file": "tests/unit/test_smoke.py",
@@ -168,7 +168,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "code",
       "norm_label": "test_smoke_environment()",
       "source_file": "tests/unit/test_smoke.py",
@@ -257,6 +257,18 @@
       "norm_label": ".test_expense_signed_amount_is_negative()",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L120"
+    },
+    {
+      "id": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
+      "label": ".test_cannot_instantiate_abstract_base_class()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": ".test_cannot_instantiate_abstract_base_class()",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L33"
     },
     {
       "id": "tests_unit_test_financial_records_testfinancialrecordvalidation_test_reject_invalid_currency",
@@ -391,18 +403,6 @@
       "source_location": "L78"
     },
     {
-      "id": "tests_unit_test_financial_records_testfinancialrecordabc_test_cannot_instantiate_abstract_base_class",
-      "label": ".test_cannot_instantiate_abstract_base_class()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": ".test_cannot_instantiate_abstract_base_class",
-      "file_type": "code",
-      "norm_label": ".test_cannot_instantiate_abstract_base_class()",
-      "source_file": "tests/unit/test_financial_records.py",
-      "source_location": "L33"
-    },
-    {
       "id": "src_logic_entities_financial_record_financialrecord_init",
       "label": ".__init__()",
       "_callable": true,
@@ -487,66 +487,22 @@
       "source_location": "L69"
     },
     {
-      "id": "exception",
-      "label": "Exception",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "exceptions.py",
-      "file_type": "code",
-      "norm_label": "exception",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_exceptions",
-      "label": "exceptions.py",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "exceptions.py",
-      "file_type": "code",
-      "norm_label": "exceptions.py",
-      "source_file": "src/exceptions.py",
-      "source_location": "L1"
-    },
-    {
       "id": "tests_unit_test_smoke",
       "label": "test_smoke.py",
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "code",
       "norm_label": "test_smoke.py",
       "source_file": "tests/unit/test_smoke.py",
       "source_location": "L1"
     },
     {
-      "id": "src_exceptions_rationale_1",
-      "label": "Base Exceptions for Smart Finance Manager",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "exceptions.py",
-      "file_type": "rationale",
-      "norm_label": "base exceptions for smart finance manager",
-      "source_file": "src/exceptions.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_exceptions_rationale_7",
-      "label": "Base exception for all domain and application errors.",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "exceptions.py",
-      "file_type": "rationale",
-      "norm_label": "base exception for all domain and application errors.",
-      "source_file": "src/exceptions.py",
-      "source_location": "L7"
-    },
-    {
       "id": "tests_unit_test_smoke_rationale_1",
       "label": "Smoke test to verify that the testing environment, test runner, and project\u2026",
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "rationale",
       "norm_label": "smoke test to verify that the testing environment, test runner, and project...",
       "source_file": "tests/unit/test_smoke.py",
@@ -557,7 +513,7 @@
       "label": "Verify that pytest is functioning properly.",
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "rationale",
       "norm_label": "verify that pytest is functioning properly.",
       "source_file": "tests/unit/test_smoke.py",
@@ -568,7 +524,7 @@
       "label": "Verify that domain exceptions in src can be imported and instantiated.",
       "_origin": "ast",
       "community": 1,
-      "community_name": "exceptions.py",
+      "community_name": "test_smoke.py",
       "file_type": "rationale",
       "norm_label": "verify that domain exceptions in src can be imported and instantiated.",
       "source_file": "tests/unit/test_smoke.py",
@@ -773,6 +729,28 @@
       "source_location": "L136"
     },
     {
+      "id": "tests_unit_test_financial_records_rationale_31",
+      "label": "Tests ensuring FinancialRecord behaves as an abstract base class.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "tests ensuring financialrecord behaves as an abstract base class.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "tests_unit_test_financial_records_rationale_36",
+      "label": "FinancialRecord is abstract and cannot be instantiated directly.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "financialrecord is abstract and cannot be instantiated directly.",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L36"
+    },
+    {
       "id": "tests_unit_test_financial_records_rationale_48",
       "label": "Tests verifying Income entity behavior and signed amount.",
       "_origin": "ast",
@@ -795,26 +773,64 @@
       "source_location": "L94"
     },
     {
-      "id": "tests_unit_test_financial_records_rationale_31",
-      "label": "Tests ensuring FinancialRecord behaves as an abstract base class.",
+      "id": "docs_classdiagram_5_application_services_utilities",
+      "label": "5. Application Services & Utilities",
       "_origin": "ast",
-      "community": 17,
-      "community_name": ".test_cannot_instantiate_abstract_base_class",
-      "file_type": "rationale",
-      "norm_label": "tests ensuring financialrecord behaves as an abstract base class.",
-      "source_file": "tests/unit/test_financial_records.py",
-      "source_location": "L31"
+      "community": 2,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. application services & utilities",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L225"
     },
     {
-      "id": "tests_unit_test_financial_records_rationale_36",
-      "label": "FinancialRecord is abstract and cannot be instantiated directly.",
+      "id": "docs_classdiagram_excelexporter_service_export_utility",
+      "label": "`ExcelExporter` *(Service / Export Utility)*",
       "_origin": "ast",
-      "community": 17,
-      "community_name": ".test_cannot_instantiate_abstract_base_class",
-      "file_type": "rationale",
-      "norm_label": "financialrecord is abstract and cannot be instantiated directly.",
-      "source_file": "tests/unit/test_financial_records.py",
-      "source_location": "L36"
+      "community": 2,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`excelexporter` *(service / export utility)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L238"
+    },
+    {
+      "id": "docs_classdiagram_key_responsibilities",
+      "label": "Key Responsibilities:",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key responsibilities:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L241"
+    },
+    {
+      "id": "docs_classdiagram_key_responsibilities_methods",
+      "label": "Key Responsibilities & Methods:",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key responsibilities & methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L230"
+    },
+    {
+      "id": "docs_classdiagram_statistics_service_calculation_component",
+      "label": "`Statistics` *(Service / Calculation Component)*",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "5. Application Services & Utilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`statistics` *(service / calculation component)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L227"
     },
     {
       "id": "docs_architecture",
@@ -985,11 +1001,35 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_classdiagram",
+      "label": "ClassDiagram.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "classdiagram.md",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
+      "label": "1. Core Domain Entities & Inheritance",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. core domain entities & inheritance",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L59"
+    },
+    {
       "id": "docs_classdiagram_2_user_classification_domain",
       "label": "2. User & Classification Domain",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. user & classification domain",
@@ -1001,7 +1041,7 @@
       "label": "3. Goals & Savings Domain",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. goals & savings domain",
@@ -1013,7 +1053,7 @@
       "label": "4. Reporting & Audit Domain",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4. reporting & audit domain",
@@ -1021,23 +1061,23 @@
       "source_location": "L189"
     },
     {
-      "id": "docs_classdiagram_5_application_services_utilities",
-      "label": "5. Application Services & Utilities",
+      "id": "docs_classdiagram_architectural_notes",
+      "label": "Architectural Notes",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "5. application services & utilities",
+      "norm_label": "architectural notes",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L225"
+      "source_location": "L46"
     },
     {
       "id": "docs_classdiagram_category",
       "label": "`Category`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`category`",
@@ -1045,11 +1085,35 @@
       "source_location": "L123"
     },
     {
+      "id": "docs_classdiagram_class_diagram_design",
+      "label": "Class Diagram Design",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "class diagram design",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_classdiagram_class_relationships_associations",
+      "label": "Class Relationships & Associations",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "class relationships & associations",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L25"
+    },
+    {
       "id": "docs_classdiagram_contribution",
       "label": "`Contribution`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`contribution`",
@@ -1061,7 +1125,7 @@
       "label": "Detailed Class Specifications",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "detailed class specifications",
@@ -1069,23 +1133,35 @@
       "source_location": "L55"
     },
     {
-      "id": "docs_classdiagram_excelexporter_service_export_utility",
-      "label": "`ExcelExporter` *(Service / Export Utility)*",
+      "id": "docs_classdiagram_expense_derived_from_financialrecord",
+      "label": "`Expense` *(Derived from FinancialRecord)*",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`excelexporter` *(service / export utility)*",
+      "norm_label": "`expense` *(derived from financialrecord)*",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L238"
+      "source_location": "L100"
+    },
+    {
+      "id": "docs_classdiagram_financialrecord_abstract_base_class",
+      "label": "`FinancialRecord` *(Abstract Base Class)*",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`financialrecord` *(abstract base class)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L61"
     },
     {
       "id": "docs_classdiagram_financialreport",
       "label": "`FinancialReport`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`financialreport`",
@@ -1097,7 +1173,7 @@
       "label": "`Goal`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`goal`",
@@ -1105,11 +1181,59 @@
       "source_location": "L147"
     },
     {
+      "id": "docs_classdiagram_implementation_mapping_guidelines",
+      "label": "Implementation & Mapping Guidelines",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "implementation & mapping guidelines",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L248"
+    },
+    {
+      "id": "docs_classdiagram_income_derived_from_financialrecord",
+      "label": "`Income` *(Derived from FinancialRecord)*",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`income` *(derived from financialrecord)*",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "docs_classdiagram_introduction",
+      "label": "Introduction",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "introduction",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_classdiagram_key_methods",
+      "label": "Key Methods:",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key methods:",
+      "source_file": "Docs/ClassDiagram.md",
+      "source_location": "L80"
+    },
+    {
       "id": "docs_classdiagram_key_methods_137",
       "label": "Key Methods:",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "key methods:",
@@ -1121,7 +1245,7 @@
       "label": "Key Methods:",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "key methods:",
@@ -1133,7 +1257,7 @@
       "label": "Key Methods:",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "key methods:",
@@ -1141,35 +1265,23 @@
       "source_location": "L203"
     },
     {
-      "id": "docs_classdiagram_key_responsibilities",
-      "label": "Key Responsibilities:",
+      "id": "docs_classdiagram_main_classes",
+      "label": "Main Classes",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "key responsibilities:",
+      "norm_label": "main classes",
       "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L241"
-    },
-    {
-      "id": "docs_classdiagram_key_responsibilities_methods",
-      "label": "Key Responsibilities & Methods:",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "key responsibilities & methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L230"
+      "source_location": "L11"
     },
     {
       "id": "docs_classdiagram_modificationhistory",
       "label": "`ModificationHistory`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`modificationhistory`",
@@ -1177,28 +1289,27 @@
       "source_location": "L209"
     },
     {
-      "id": "docs_classdiagram_statistics_service_calculation_component",
-      "label": "`Statistics` *(Service / Calculation Component)*",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Detailed Class Specifications",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`statistics` *(service / calculation component)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L227"
-    },
-    {
       "id": "docs_classdiagram_user",
       "label": "`User`",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Detailed Class Specifications",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "`user`",
       "source_file": "Docs/ClassDiagram.md",
       "source_location": "L112"
+    },
+    {
+      "id": "src_logic_entities_expense_rationale_13",
+      "label": "Concrete financial record representing an expense (negative cash flow).\u2026",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Expense",
+      "file_type": "rationale",
+      "norm_label": "concrete financial record representing an expense (negative cash flow)....",
+      "source_file": "src/logic/entities/expense.py",
+      "source_location": "L13"
     },
     {
       "id": "agents_rules_graphify",
@@ -1261,7 +1372,7 @@
       "label": "GitWorkflow.md",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "gitworkflow.md",
@@ -1273,7 +1384,7 @@
       "label": "1. Branch Strategy Overview",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. branch strategy overview",
@@ -1285,7 +1396,7 @@
       "label": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. engineering incident & lessons learned (interview case study)",
@@ -1297,7 +1408,7 @@
       "label": "3. Key Takeaways for Technical Interviews",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. key takeaways for technical interviews",
@@ -1305,11 +1416,23 @@
       "source_location": "L41"
     },
     {
+      "id": "docs_gitworkflow_4_strict_sub_branch_integration_protocol_preventing_involuntary_merges_to_main",
+      "label": "4. Strict Sub-Branch Integration Protocol (Preventing Involuntary Merges to `main`)",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. strict sub-branch integration protocol (preventing involuntary merges to `main`)",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L51"
+    },
+    {
       "id": "docs_gitworkflow_corrective_action_taken",
       "label": "Corrective Action Taken",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "corrective action taken",
@@ -1321,7 +1444,7 @@
       "label": "Git Workflow & Branching Strategy Guidelines",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "git workflow & branching strategy guidelines",
@@ -1329,11 +1452,35 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_gitworkflow_mandatory_rule_v1_exclusivity",
+      "label": "Mandatory Rule: `v1` Exclusivity",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mandatory rule: `v1` exclusivity",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "docs_gitworkflow_operational_checklist_to_prevent_recurrence",
+      "label": "Operational Checklist to Prevent Recurrence:",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "operational checklist to prevent recurrence:",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L61"
+    },
+    {
       "id": "docs_gitworkflow_technical_analysis_root_cause",
       "label": "Technical Analysis & Root Cause",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "technical analysis & root cause",
@@ -1345,7 +1492,7 @@
       "label": "The Scenario",
       "_origin": "ast",
       "community": 7,
-      "community_name": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "the scenario",
@@ -1353,99 +1500,16 @@
       "source_location": "L26"
     },
     {
-      "id": "docs_classdiagram",
-      "label": "ClassDiagram.md",
+      "id": "docs_gitworkflow_why_this_error_recurs",
+      "label": "Why this Error Recurs:",
       "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "classdiagram.md",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_classdiagram_architectural_notes",
-      "label": "Architectural Notes",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
+      "community": 7,
+      "community_name": "Git Workflow & Branching Strategy Guidelines",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "architectural notes",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L46"
-    },
-    {
-      "id": "docs_classdiagram_class_diagram_design",
-      "label": "Class Diagram Design",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "class diagram design",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_classdiagram_class_relationships_associations",
-      "label": "Class Relationships & Associations",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "class relationships & associations",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L25"
-    },
-    {
-      "id": "docs_classdiagram_implementation_mapping_guidelines",
-      "label": "Implementation & Mapping Guidelines",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "implementation & mapping guidelines",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L248"
-    },
-    {
-      "id": "docs_classdiagram_introduction",
-      "label": "Introduction",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "introduction",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L3"
-    },
-    {
-      "id": "docs_classdiagram_main_classes",
-      "label": "Main Classes",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "main classes",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L11"
-    },
-    {
-      "id": "src_logic_entities_expense_rationale_13",
-      "label": "Concrete financial record representing an expense (negative cash flow).\u2026",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "Expense",
-      "file_type": "rationale",
-      "norm_label": "concrete financial record representing an expense (negative cash flow)....",
-      "source_file": "src/logic/entities/expense.py",
-      "source_location": "L13"
+      "norm_label": "why this error recurs:",
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L57"
     },
     {
       "id": "abc",
@@ -1457,6 +1521,28 @@
       "norm_label": "abc",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "code",
+      "norm_label": "exception",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_exceptions",
+      "label": "exceptions.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "code",
+      "norm_label": "exceptions.py",
+      "source_file": "src/exceptions.py",
+      "source_location": "L1"
     },
     {
       "id": "src_logic_entities_financial_record",
@@ -1503,64 +1589,15 @@
       "source_location": ""
     },
     {
-      "id": "docs_classdiagram_1_core_domain_entities_inheritance",
-      "label": "1. Core Domain Entities & Inheritance",
+      "id": "src_exceptions_rationale_1",
+      "label": "Base Exceptions for Smart Finance Manager",
       "_origin": "ast",
       "community": 9,
       "community_name": "FinancialRecord",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. core domain entities & inheritance",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L59"
-    },
-    {
-      "id": "docs_classdiagram_expense_derived_from_financialrecord",
-      "label": "`Expense` *(Derived from FinancialRecord)*",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "FinancialRecord",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`expense` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L100"
-    },
-    {
-      "id": "docs_classdiagram_financialrecord_abstract_base_class",
-      "label": "`FinancialRecord` *(Abstract Base Class)*",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "FinancialRecord",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`financialrecord` *(abstract base class)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L61"
-    },
-    {
-      "id": "docs_classdiagram_income_derived_from_financialrecord",
-      "label": "`Income` *(Derived from FinancialRecord)*",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "FinancialRecord",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`income` *(derived from financialrecord)*",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L90"
-    },
-    {
-      "id": "docs_classdiagram_key_methods",
-      "label": "Key Methods:",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "FinancialRecord",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "key methods:",
-      "source_file": "Docs/ClassDiagram.md",
-      "source_location": "L80"
+      "file_type": "rationale",
+      "norm_label": "base exceptions for smart finance manager",
+      "source_file": "src/exceptions.py",
+      "source_location": "L1"
     },
     {
       "id": "src_exceptions_rationale_12",
@@ -1572,6 +1609,17 @@
       "norm_label": "raised when an entity or business invariant validation fails.",
       "source_file": "src/exceptions.py",
       "source_location": "L12"
+    },
+    {
+      "id": "src_exceptions_rationale_7",
+      "label": "Base exception for all domain and application errors.",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "FinancialRecord",
+      "file_type": "rationale",
+      "norm_label": "base exception for all domain and application errors.",
+      "source_file": "src/exceptions.py",
+      "source_location": "L7"
     },
     {
       "id": "src_logic_entities_financial_record_rationale_1",
@@ -1859,6 +1907,18 @@
       "type": "external"
     },
     {
+      "id": "sys",
+      "label": "sys",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sys",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "typing",
       "label": "typing",
       "_origin": "semantic",
@@ -1867,17 +1927,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "typing",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "sys",
-      "label": "sys",
-      "community": 16,
-      "community_name": "Income",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "sys",
       "source_file": "",
       "type": "external"
     }
@@ -3396,6 +3445,39 @@
       "weight": 1.0
     },
     {
+      "source": "docs_gitworkflow_4_strict_sub_branch_integration_protocol_preventing_involuntary_merges_to_main",
+      "target": "docs_gitworkflow_mandatory_rule_v1_exclusivity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_4_strict_sub_branch_integration_protocol_preventing_involuntary_merges_to_main",
+      "target": "docs_gitworkflow_why_this_error_recurs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_4_strict_sub_branch_integration_protocol_preventing_involuntary_merges_to_main",
+      "target": "docs_gitworkflow_operational_checklist_to_prevent_recurrence",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
       "source": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
       "target": "docs_gitworkflow_2_engineering_incident_lessons_learned_interview_case_study",
       "relation": "contains",
@@ -3426,6 +3508,17 @@
       "confidence_score": 1.0,
       "source_file": "Docs/GitWorkflow.md",
       "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_gitworkflow_git_workflow_branching_strategy_guidelines",
+      "target": "docs_gitworkflow_4_strict_sub_branch_integration_protocol_preventing_involuntary_merges_to_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Docs/GitWorkflow.md",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -4796,5 +4889,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "dc59a7a0bdc45b2ecbeb2a86284f4b9b1e67744e"
+  "built_at_commit": "06f65290e49dc5d9621683e0995411d07190ac7c"
 }

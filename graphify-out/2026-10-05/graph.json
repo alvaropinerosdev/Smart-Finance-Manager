@@ -575,17 +575,6 @@
       "source_location": "L15"
     },
     {
-      "id": "src_logic_calculations_init",
-      "label": "calculations/__init__.py",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "calculations/__init__.py",
-      "file_type": "code",
-      "norm_label": "calculations/__init__.py",
-      "source_file": "src/logic/calculations/__init__.py",
-      "source_location": "L1"
-    },
-    {
       "id": "src_logic_entities_expense",
       "label": "expense.py",
       "_origin": "ast",
@@ -631,12 +620,12 @@
     },
     {
       "id": "src_logic_entities_init",
-      "label": "entities/__init__.py",
+      "label": "__init__.py",
       "_origin": "ast",
       "community": 11,
       "community_name": "expense.py",
       "file_type": "code",
-      "norm_label": "entities/__init__.py",
+      "norm_label": "__init__.py",
       "source_file": "src/logic/entities/__init__.py",
       "source_location": "L1"
     },
@@ -693,50 +682,6 @@
       "file_type": "rationale",
       "norm_label": "entities package exposing domain models for smart finance manager.",
       "source_file": "src/logic/entities/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_logic_init",
-      "label": "logic/__init__.py",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "logic/__init__.py",
-      "file_type": "code",
-      "norm_label": "logic/__init__.py",
-      "source_file": "src/logic/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_logic_rules_init",
-      "label": "rules/__init__.py",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "rules/__init__.py",
-      "file_type": "code",
-      "norm_label": "rules/__init__.py",
-      "source_file": "src/logic/rules/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_init",
-      "label": "tests/__init__.py",
-      "_origin": "ast",
-      "community": 14,
-      "community_name": "tests/__init__.py",
-      "file_type": "code",
-      "norm_label": "tests/__init__.py",
-      "source_file": "tests/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_unit_init",
-      "label": "unit/__init__.py",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "unit/__init__.py",
-      "file_type": "code",
-      "norm_label": "unit/__init__.py",
-      "source_file": "tests/unit/__init__.py",
       "source_location": "L1"
     },
     {
@@ -870,17 +815,6 @@
       "norm_label": "financialrecord is abstract and cannot be instantiated directly.",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L36"
-    },
-    {
-      "id": "src_init",
-      "label": "src/__init__.py",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "src/__init__.py",
-      "file_type": "code",
-      "norm_label": "src/__init__.py",
-      "source_file": "src/__init__.py",
-      "source_location": "L1"
     },
     {
       "id": "docs_architecture",
@@ -1889,6 +1823,42 @@
       "type": "external"
     },
     {
+      "id": "decimal",
+      "label": "decimal",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "decimal",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "logic_entities",
+      "label": "logic_entities",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "logic_entities",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "pytest",
+      "label": "pytest",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "pytest",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "typing",
       "label": "typing",
       "_origin": "semantic",
@@ -1901,35 +1871,13 @@
       "type": "external"
     },
     {
-      "id": "decimal",
-      "label": "decimal",
+      "id": "sys",
+      "label": "sys",
       "community": 16,
       "community_name": "Income",
       "external": true,
       "file_type": "concept",
-      "norm_label": "decimal",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "logic_entities",
-      "label": "logic_entities",
-      "community": 16,
-      "community_name": "Income",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "logic_entities",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "pytest",
-      "label": "pytest",
-      "community": 16,
-      "community_name": "Income",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "pytest",
+      "norm_label": "sys",
       "source_file": "",
       "type": "external"
     }
@@ -1996,6 +1944,78 @@
       "weight": 1.0
     },
     {
+      "source": "src_logic_entities_financial_record_financialrecord_init",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record_financialrecord_validate_amount",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record_financialrecord_validate_currency",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record_financialrecord_validate_datetime",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record_financialrecord_validate_ids",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record_financialrecord_validate_type",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
       "source": "tests_unit_test_financial_records_sample_category_id",
       "target": "fixture",
       "relation": "references",
@@ -2044,6 +2064,42 @@
       "weight": 1.0
     },
     {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_financial_record",
+      "relation": "re_exports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "export",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_income",
+      "relation": "re_exports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "export",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_expense",
+      "relation": "re_exports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "export",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "src_logic_entities_financial_record_financialrecord_init",
       "target": "src_logic_entities_financial_record_py_datetime",
       "relation": "references",
@@ -2077,6 +2133,90 @@
       "context": "generic_arg",
       "source_file": "src/logic/entities/financial_record.py",
       "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_expense",
+      "target": "src_logic_entities_financial_record_financialrecord",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/expense.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_financial_record",
+      "target": "src_exceptions_domainvalidationerror",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/financial_record.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_income",
+      "target": "src_logic_entities_financial_record_financialrecord",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_financial_record_financialrecord",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_income_income",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_init",
+      "target": "src_logic_entities_expense_expense",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/logic/entities/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_financial_records",
+      "target": "sys",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/unit/test_financial_records.py",
+      "source_location": "L272",
       "weight": 1.0
     },
     {
@@ -3993,78 +4133,6 @@
       "weight": 1.0
     },
     {
-      "source": "src_logic_entities_financial_record_financialrecord_init",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L56",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_financial_record_financialrecord_validate_amount",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L81",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_financial_record_financialrecord_validate_currency",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L88",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_financial_record_financialrecord_validate_datetime",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L107",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_financial_record_financialrecord_validate_ids",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L98",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_financial_record_financialrecord_validate_type",
-      "target": "src_exceptions_domainvalidationerror",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "src/logic/entities/financial_record.py",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
       "source": "tests_unit_test_financial_records_testexpenseentity_test_create_expense_success",
       "target": "src_logic_entities_expense_expense",
       "relation": "calls",
@@ -4728,5 +4796,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "0737d7e8d8faaa487a28892e50d3a2046e8a032d"
+  "built_at_commit": "dc59a7a0bdc45b2ecbeb2a86284f4b9b1e67744e"
 }
