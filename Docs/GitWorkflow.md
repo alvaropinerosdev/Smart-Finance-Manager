@@ -45,3 +45,29 @@ When discussing this experience in technical interviews:
 - **Branch Protection & Release Maturity**: Demonstrates understanding that `main` must always represent production stability. Incomplete sprint tasks or ongoing feature work should never contaminate the production line.
 - **Root Cause Analysis (RCA)**: Shows the ability to identify why an operational divergence happened (GitHub default PR target behavior) and how to implement a systematic protocol to prevent regression.
 - **Real-World CI/CD Awareness**: Reflects practical knowledge of modern software engineering practices, Git Flow, branch permissions, and code review lifecycles.
+
+---
+
+## 4. Strict Sub-Branch Integration Protocol (Preventing Involuntary Merges to `main`)
+
+### Mandatory Rule: `v1` Exclusivity
+When completing and deleting any sub-branch (`feature/*` or `chore/*`), **all changes must integrate exclusively into `v1`**. 
+Changes must **NEVER** land in `main` and `v1` simultaneously during daily development sprints.
+
+### Why this Error Recurs:
+1. **GitHub Default Branch Trap**: In GitHub repository settings, `main` is designated as the default branch. Consequently, whenever a new Pull Request is opened, GitHub's UI automatically pre-selects `base: main`.
+2. If the author clicks "Create pull request" and merges without manually overriding the base selector, the code merges directly into production (`main`), polluting the release baseline.
+
+### Operational Checklist to Prevent Recurrence:
+1. **Manual Inspection**: Before confirming PR creation, verify the branch target badge reads:
+   $$\text{base: } \mathbf{v1} \longleftarrow \text{compare: } \mathbf{feature/*}$$
+2. **Permanent Preventive Solution (GitHub Setting)**:
+   In GitHub Repository Settings $\rightarrow$ **Branches** $\rightarrow$ **Default branch**, switch the default branch to `v1` for the duration of Version 1 development. This forces all GitHub PR forms and comparison banners to target `v1` automatically.
+3. **Local Audit Rule**:
+   After deleting a sub-branch, run:
+   ```bash
+   git fetch origin
+   git log origin/v1 -n 3 --oneline
+   git log origin/main -n 3 --oneline
+   ```
+   Ensure that only `origin/v1` advanced, while `origin/main` remained unchanged.

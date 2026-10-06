@@ -1,14 +1,13 @@
 {
   "0": "FinancialRecord",
-  "1": "exceptions.py",
+  "1": "test_smoke.py",
+  "2": "5. Application Services & Utilities",
   "3": "Architecture.md",
-  "4": "Detailed Class Specifications",
+  "4": "Expense",
   "5": "rules/graphify.md",
   "6": "workflows/graphify.md",
-  "7": "2. Engineering Incident & Lessons Learned (Interview Case Study)",
-  "8": "Expense",
+  "7": "Git Workflow & Branching Strategy Guidelines",
   "9": "FinancialRecord",
   "11": "expense.py",
-  "16": "Income",
-  "17": ".test_cannot_instantiate_abstract_base_class"
+  "16": "Income"
 }
