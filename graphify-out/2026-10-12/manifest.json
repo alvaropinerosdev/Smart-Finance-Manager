@@ -1,0 +1,110 @@
+{
+  "Docs/DataBase.md": {
+    "mtime": 1791248690.6920638,
+    "seen": 1791249318.292483,
+    "ast_hash": "b68d6adaba6424faaa6b3db541e8830b",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790305797.660836,
+    "seen": 1790617029.2468348,
+    "ast_hash": "c4e4508bf09a73562ac03ca37b7d1b88",
+    "semantic_hash": "c4e4508bf09a73562ac03ca37b7d1b88"
+  },
+  "Docs/Images/database_uml.png": {
+    "mtime": 1790564935.587065,
+    "seen": 1790617029.2468348,
+    "ast_hash": "8805af9c87279504bfc8550042154969",
+    "semantic_hash": "8805af9c87279504bfc8550042154969"
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1790618291.9895248,
+    "seen": 1790698816.5533235,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1790618291.9905126,
+    "seen": 1790698816.5533235,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "Docs/Architecture.md": {
+    "mtime": 1790698494.6303482,
+    "seen": 1790698816.5533235,
+    "ast_hash": "594ec3355dd88e33178b391588602dd5",
+    "semantic_hash": ""
+  },
+  "Docs/ClassDiagram.md": {
+    "mtime": 1791250872.895904,
+    "seen": 1791251177.4590383,
+    "ast_hash": "93af7dd738d8bbd22314902c79e2a7df",
+    "semantic_hash": ""
+  },
+  "Docs/Images/Class Diagram.png": {
+    "mtime": 1790868262.127247,
+    "seen": 1790868922.2560415,
+    "ast_hash": "83442a23e14aaa4b921df552279446c4",
+    "semantic_hash": ""
+  },
+  "src/exceptions.py": {
+    "mtime": 1791088065.1642377,
+    "seen": 1791171851.2561848,
+    "ast_hash": "13531bd2c07c0d912770ba1925eb0f23",
+    "semantic_hash": ""
+  },
+  "src/logic/entities/__init__.py": {
+    "mtime": 1791250872.9059017,
+    "seen": 1791251177.4590383,
+    "ast_hash": "77bb1763b49071f83602df7449ba0262",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_smoke.py": {
+    "mtime": 1791171792.4325895,
+    "seen": 1791171851.2561848,
+    "ast_hash": "f9b1ca2612f18ad7c01918ffbcbae481",
+    "semantic_hash": ""
+  },
+  "requirements-dev.txt": {
+    "mtime": 1791171792.431589,
+    "seen": 1791171851.2561848,
+    "ast_hash": "4a2caad0190b8a40c7328b1b92ed9f97",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1791171792.431589,
+    "seen": 1791171851.2561848,
+    "ast_hash": "bd5f720bbcb2c233606f9867a0fdeb51",
+    "semantic_hash": ""
+  },
+  "Docs/GitWorkflow.md": {
+    "mtime": 1791251137.8080654,
+    "seen": 1791251177.4590383,
+    "ast_hash": "243c8ce3f6d816968481240829fb1c09",
+    "semantic_hash": ""
+  },
+  "src/logic/entities/expense.py": {
+    "mtime": 1791250872.9059017,
+    "seen": 1791251177.4590383,
+    "ast_hash": "92c72f80f4e6b847e133e0e617b05ab7",
+    "semantic_hash": ""
+  },
+  "src/logic/entities/financial_record.py": {
+    "mtime": 1791250872.9069014,
+    "seen": 1791251177.4590383,
+    "ast_hash": "d45d380f3daddde9caf8dd8067f6b1d0",
+    "semantic_hash": ""
+  },
+  "src/logic/entities/income.py": {
+    "mtime": 1791250872.9069014,
+    "seen": 1791251177.4590383,
+    "ast_hash": "89aa11fe0ab7e14ba78d7dad752aff13",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_financial_records.py": {
+    "mtime": 1791250872.9069014,
+    "seen": 1791251177.4590383,
+    "ast_hash": "df16e48f3b954d833ebb8f409d3ec972",
+    "semantic_hash": ""
+  }
+}
