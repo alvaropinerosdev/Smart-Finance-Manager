@@ -1,0 +1,18 @@
+{
+  "0": "FinancialRecord",
+  "1": "exceptions.py",
+  "2": "User",
+  "3": "Architecture.md",
+  "4": "Detailed Class Specifications",
+  "5": "rules/graphify.md",
+  "6": "workflows/graphify.md",
+  "7": "Git Workflow & Branching Strategy Guidelines",
+  "8": "logic_entities_expense",
+  "9": "FinancialRecord",
+  "10": "logic_entities_income",
+  "11": "Expense",
+  "12": "user.py",
+  "13": "datetime",
+  "14": "uuid",
+  "16": "Income"
+}

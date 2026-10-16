@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "src/logic/entities/__init__.py": {
-    "mtime": 1791859698.12282,
-    "seen": 1791934227.055521,
-    "ast_hash": "ec7d865fa20e6a32774fb4de6c45e6b3",
+    "mtime": 1792116094.5251343,
+    "seen": 1792116162.0001316,
+    "ast_hash": "b5c1bd06c1d77f0bdda77d7b1b06d07a",
     "semantic_hash": ""
   },
   "tests/unit/test_smoke.py": {
@@ -108,15 +108,21 @@
     "semantic_hash": ""
   },
   "src/logic/entities/user.py": {
-    "mtime": 1791934173.0571322,
-    "seen": 1791934227.055521,
+    "mtime": 1792115718.153133,
+    "seen": 1792116162.0001316,
     "ast_hash": "bdbcd71a9b514f14d928af5ecf09ee5c",
     "semantic_hash": ""
   },
   "tests/unit/test_user_category.py": {
-    "mtime": 1791934192.5267987,
-    "seen": 1791934227.055521,
-    "ast_hash": "b889a21353b09b76e65d11d053e0b4c4",
+    "mtime": 1792116145.5336335,
+    "seen": 1792116162.0001316,
+    "ast_hash": "8bed9409fc0fb2eb572802ad76717f5a",
+    "semantic_hash": ""
+  },
+  "src/logic/entities/category.py": {
+    "mtime": 1792116084.5691326,
+    "seen": 1792116162.0001316,
+    "ast_hash": "4e2b9c7cd48b4bea55bb7e84da653bfd",
     "semantic_hash": ""
   }
 }
