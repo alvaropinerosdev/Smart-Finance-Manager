@@ -6,11 +6,13 @@ from logic.entities.financial_record import FinancialRecord
 from logic.entities.income import Income
 from logic.entities.expense import Expense
 from logic.entities.user import User
+from logic.entities.category import Category
 
 __all__ = [
     "FinancialRecord",
     "Income",
     "Expense",
     "User",
+    "Category",
 ]
 
