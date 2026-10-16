@@ -40,7 +40,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "smartfinanceerror",
       "source_file": "src/exceptions.py",
@@ -53,7 +53,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "expense",
       "source_file": "src/logic/entities/expense.py",
@@ -65,7 +65,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 11,
+      "community": 16,
       "community_name": "Income",
       "file_type": "code",
       "norm_label": "income",
@@ -79,7 +79,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "testexpenseentity",
       "source_file": "tests/unit/test_financial_records.py",
@@ -92,7 +92,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "testfinancialrecordabc",
       "source_file": "tests/unit/test_financial_records.py",
@@ -105,7 +105,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "testfinancialrecordvalidation",
       "source_file": "tests/unit/test_financial_records.py",
@@ -118,7 +118,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "testincomeentity",
       "source_file": "tests/unit/test_financial_records.py",
@@ -148,7 +148,7 @@
       "file_type": "code",
       "norm_label": "testuserentity",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L14"
+      "source_location": "L29"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation",
@@ -161,7 +161,7 @@
       "file_type": "code",
       "norm_label": "testuservalidation",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L68"
+      "source_location": "L126"
     },
     {
       "id": "src_exceptions_domainvalidationerror",
@@ -195,7 +195,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "test_smoke_domain_exceptions_import()",
       "source_file": "tests/unit/test_smoke.py",
@@ -207,7 +207,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "test_smoke_environment()",
       "source_file": "tests/unit/test_smoke.py",
@@ -219,7 +219,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": ".signed_amount()",
       "source_file": "src/logic/entities/expense.py",
@@ -231,11 +231,59 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": ".signed_amount()",
       "source_file": "src/logic/entities/income.py",
       "source_location": "L20"
+    },
+    {
+      "id": "src_logic_entities_user_user_init",
+      "label": ".__init__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": ".__init__()",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_logic_entities_user_user_update_timestamp",
+      "label": ".update_timestamp()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": ".update_timestamp()",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "src_logic_entities_user_user_validate_datetimes",
+      "label": "._validate_datetimes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": "._validate_datetimes()",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_logic_entities_user_user_validate_id",
+      "label": "._validate_id()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": "._validate_id()",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L34"
     },
     {
       "id": "tests_unit_test_financial_records_sample_category_id",
@@ -243,7 +291,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "sample_category_id()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -255,7 +303,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "sample_datetime()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -267,7 +315,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "sample_user_id()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -279,7 +327,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_create_expense_success()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -291,7 +339,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_expense_signed_amount_is_negative()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -303,7 +351,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_cannot_instantiate_abstract_base_class()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -315,7 +363,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_invalid_currency()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -327,7 +375,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_invalid_datetime()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -339,7 +387,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_invalid_ids()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -351,7 +399,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_non_decimal_amount()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -363,7 +411,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_non_string_currency()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -375,7 +423,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_non_string_type()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -387,7 +435,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_subclass_without_type()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -399,7 +447,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "signed_amount()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -411,7 +459,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_reject_zero_or_negative_amount()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -423,7 +471,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_create_income_success()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -435,7 +483,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": ".test_income_signed_amount_is_positive()",
       "source_file": "tests/unit/test_financial_records.py",
@@ -451,7 +499,7 @@
       "file_type": "code",
       "norm_label": ".__eq__()",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L69"
+      "source_location": "L64"
     },
     {
       "id": "src_logic_entities_user_user_hash",
@@ -463,19 +511,7 @@
       "file_type": "code",
       "norm_label": ".__hash__()",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L74"
-    },
-    {
-      "id": "src_logic_entities_user_user_init",
-      "label": ".__init__()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "code",
-      "norm_label": ".__init__()",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L20"
+      "source_location": "L69"
     },
     {
       "id": "src_logic_entities_user_user_repr",
@@ -487,67 +523,79 @@
       "file_type": "code",
       "norm_label": ".__repr__()",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L66"
+      "source_location": "L61"
     },
     {
-      "id": "src_logic_entities_user_user_update_timestamp",
-      "label": ".update_timestamp()",
+      "id": "tests_unit_test_user_category_sample_created_at",
+      "label": "sample_created_at()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "User",
       "file_type": "code",
-      "norm_label": ".update_timestamp()",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L54"
-    },
-    {
-      "id": "src_logic_entities_user_user_validate_datetimes",
-      "label": "._validate_datetimes()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "code",
-      "norm_label": "._validate_datetimes()",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "src_logic_entities_user_user_validate_id",
-      "label": "._validate_id()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "code",
-      "norm_label": "._validate_id()",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "tests_unit_test_user_category_testuserentity_test_create_user_with_defaults",
-      "label": ".test_create_user_with_defaults()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "code",
-      "norm_label": ".test_create_user_with_defaults()",
+      "norm_label": "sample_created_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L17"
+      "source_location": "L20"
     },
     {
-      "id": "tests_unit_test_user_category_testuserentity_test_create_user_with_explicit_values",
-      "label": ".test_create_user_with_explicit_values()",
+      "id": "tests_unit_test_user_category_sample_updated_at",
+      "label": "sample_updated_at()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "User",
       "file_type": "code",
-      "norm_label": ".test_create_user_with_explicit_values()",
+      "norm_label": "sample_updated_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L24"
+      "source_location": "L25"
+    },
+    {
+      "id": "tests_unit_test_user_category_sample_user_id",
+      "label": "sample_user_id()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "code",
+      "norm_label": "sample_user_id()",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_with_missing_arguments",
+      "label": ".test_cannot_instantiate_user_with_missing_arguments()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "code",
+      "norm_label": ".test_cannot_instantiate_user_with_missing_arguments()",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_without_required_arguments",
+      "label": ".test_cannot_instantiate_user_without_required_arguments()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "code",
+      "norm_label": ".test_cannot_instantiate_user_without_required_arguments()",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_unit_test_user_category_testuserentity_test_create_user_success",
+      "label": ".test_create_user_success()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "code",
+      "norm_label": ".test_create_user_success()",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L45"
     },
     {
       "id": "tests_unit_test_user_category_testuserentity_test_update_timestamp_default",
@@ -559,7 +607,7 @@
       "file_type": "code",
       "norm_label": ".test_update_timestamp_default()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L51"
+      "source_location": "L99"
     },
     {
       "id": "tests_unit_test_user_category_testuserentity_test_update_timestamp_explicit",
@@ -571,7 +619,7 @@
       "file_type": "code",
       "norm_label": ".test_update_timestamp_explicit()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L59"
+      "source_location": "L112"
     },
     {
       "id": "tests_unit_test_user_category_testuserentity_test_user_equality_and_hash",
@@ -583,7 +631,7 @@
       "file_type": "code",
       "norm_label": ".test_user_equality_and_hash()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L34"
+      "source_location": "L60"
     },
     {
       "id": "tests_unit_test_user_category_testuserentity_test_user_repr",
@@ -595,7 +643,7 @@
       "file_type": "code",
       "norm_label": ".test_user_repr()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L46"
+      "source_location": "L86"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_created_at",
@@ -607,7 +655,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_invalid_created_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L78"
+      "source_location": "L146"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_updated_at",
@@ -619,7 +667,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_invalid_updated_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L82"
+      "source_location": "L156"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_user_id",
@@ -631,7 +679,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_invalid_user_id()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L71"
+      "source_location": "L129"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_invalid_type",
@@ -643,7 +691,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_update_timestamp_invalid_type()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L93"
+      "source_location": "L173"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_prior_to_created_at",
@@ -655,7 +703,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_update_timestamp_prior_to_created_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L98"
+      "source_location": "L184"
     },
     {
       "id": "tests_unit_test_user_category_testuservalidation_test_reject_updated_at_prior_to_created_at",
@@ -667,7 +715,7 @@
       "file_type": "code",
       "norm_label": ".test_reject_updated_at_prior_to_created_at()",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L86"
+      "source_location": "L166"
     },
     {
       "id": "src_logic_entities_financial_record_financialrecord_init",
@@ -758,7 +806,7 @@
       "label": "Exception",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "exception",
       "source_file": "",
@@ -769,7 +817,7 @@
       "label": "exceptions.py",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "exceptions.py",
       "source_file": "src/exceptions.py",
@@ -780,21 +828,10 @@
       "label": "test_smoke.py",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "code",
       "norm_label": "test_smoke.py",
       "source_file": "tests/unit/test_smoke.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_unit_test_user_category",
-      "label": "test_user_category.py",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "file_type": "code",
-      "norm_label": "test_user_category.py",
-      "source_file": "tests/unit/test_user_category.py",
       "source_location": "L1"
     },
     {
@@ -802,7 +839,7 @@
       "label": "Base Exceptions for Smart Finance Manager",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "rationale",
       "norm_label": "base exceptions for smart finance manager",
       "source_file": "src/exceptions.py",
@@ -813,7 +850,7 @@
       "label": "Base exception for all domain and application errors.",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "rationale",
       "norm_label": "base exception for all domain and application errors.",
       "source_file": "src/exceptions.py",
@@ -824,7 +861,7 @@
       "label": "Smoke test to verify that the testing environment, test runner, and project\u2026",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "rationale",
       "norm_label": "smoke test to verify that the testing environment, test runner, and project...",
       "source_file": "tests/unit/test_smoke.py",
@@ -835,7 +872,7 @@
       "label": "Verify that pytest is functioning properly.",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "rationale",
       "norm_label": "verify that pytest is functioning properly.",
       "source_file": "tests/unit/test_smoke.py",
@@ -846,29 +883,18 @@
       "label": "Verify that domain exceptions in src can be imported and instantiated.",
       "_origin": "ast",
       "community": 1,
-      "community_name": "test_user_category.py",
+      "community_name": "exceptions.py",
       "file_type": "rationale",
       "norm_label": "verify that domain exceptions in src can be imported and instantiated.",
       "source_file": "tests/unit/test_smoke.py",
       "source_location": "L15"
     },
     {
-      "id": "tests_unit_test_user_category_rationale_1",
-      "label": "Unit tests for User and Category entities.",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "file_type": "rationale",
-      "norm_label": "unit tests for user and category entities.",
-      "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L1"
-    },
-    {
       "id": "src_logic_entities_expense",
       "label": "expense.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "expense.py",
       "source_file": "src/logic/entities/expense.py",
@@ -879,7 +905,7 @@
       "label": "Decimal",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "decimal",
       "source_file": "",
@@ -890,7 +916,7 @@
       "label": "income.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "income.py",
       "source_file": "src/logic/entities/income.py",
@@ -901,7 +927,7 @@
       "label": "Decimal",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "decimal",
       "source_file": "",
@@ -912,7 +938,7 @@
       "label": "__init__.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "code",
       "norm_label": "__init__.py",
       "source_file": "src/logic/entities/__init__.py",
@@ -923,7 +949,7 @@
       "label": "ClassDiagram.md",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "classdiagram.md",
@@ -935,7 +961,7 @@
       "label": "Architectural Notes",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "architectural notes",
@@ -947,7 +973,7 @@
       "label": "Class Diagram Design",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "class diagram design",
@@ -959,7 +985,7 @@
       "label": "Class Relationships & Associations",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "class relationships & associations",
@@ -971,7 +997,7 @@
       "label": "Implementation & Mapping Guidelines",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "implementation & mapping guidelines",
@@ -983,7 +1009,7 @@
       "label": "Introduction",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "introduction",
@@ -995,7 +1021,7 @@
       "label": "Main Classes",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "main classes",
@@ -1007,7 +1033,7 @@
       "label": "Expense Entity Module. Specializes FinancialRecord for outgoing monetary\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "expense entity module. specializes financialrecord for outgoing monetary...",
       "source_file": "src/logic/entities/expense.py",
@@ -1018,7 +1044,7 @@
       "label": "Concrete financial record representing an expense (negative cash flow).\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "concrete financial record representing an expense (negative cash flow)....",
       "source_file": "src/logic/entities/expense.py",
@@ -1029,7 +1055,7 @@
       "label": "Return negative signed amount representing money outflow.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "return negative signed amount representing money outflow.",
       "source_file": "src/logic/entities/expense.py",
@@ -1040,29 +1066,18 @@
       "label": "Income Entity Module. Specializes FinancialRecord for incoming monetary\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "income entity module. specializes financialrecord for incoming monetary...",
       "source_file": "src/logic/entities/income.py",
       "source_location": "L1"
     },
     {
-      "id": "src_logic_entities_income_rationale_13",
-      "label": "Concrete financial record representing an income (positive cash flow). Inherits\u2026",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "Income",
-      "file_type": "rationale",
-      "norm_label": "concrete financial record representing an income (positive cash flow). inherits...",
-      "source_file": "src/logic/entities/income.py",
-      "source_location": "L13"
-    },
-    {
       "id": "src_logic_entities_income_rationale_21",
       "label": "Return positive signed amount representing money inflow.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "return positive signed amount representing money inflow.",
       "source_file": "src/logic/entities/income.py",
@@ -1073,29 +1088,73 @@
       "label": "Entities package exposing domain models for Smart Finance Manager.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "file_type": "rationale",
       "norm_label": "entities package exposing domain models for smart finance manager.",
       "source_file": "src/logic/entities/__init__.py",
       "source_location": "L1"
     },
     {
-      "id": "fixture",
-      "label": "fixture",
+      "id": "src_logic_entities_user",
+      "label": "user.py",
       "_origin": "ast",
-      "community": 16,
-      "community_name": "UUID",
+      "community": 12,
+      "community_name": "user.py",
       "file_type": "code",
-      "norm_label": "fixture",
+      "norm_label": "user.py",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_logic_entities_user_py_datetime",
+      "label": "datetime",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": "datetime",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "src_logic_entities_user_py_uuid",
+      "label": "UUID",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "code",
+      "norm_label": "uuid",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_logic_entities_user_rationale_1",
+      "label": "User Entity Module. Defines the root user entity for Smart Finance Manager.",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "rationale",
+      "norm_label": "user entity module. defines the root user entity for smart finance manager.",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_logic_entities_user_rationale_50",
+      "label": "Update the updated_at timestamp to the specified datetime or the current UTC\u2026",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "user.py",
+      "file_type": "rationale",
+      "norm_label": "update the updated_at timestamp to the specified datetime or the current utc...",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L50"
     },
     {
       "id": "parametrize",
       "label": "parametrize",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "parametrize",
       "source_file": "",
@@ -1106,7 +1165,7 @@
       "label": "test_financial_records.py",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "test_financial_records.py",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1117,9 +1176,20 @@
       "label": "datetime",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_unit_test_financial_records_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "code",
+      "norm_label": "fixture",
       "source_file": "",
       "source_location": ""
     },
@@ -1128,18 +1198,29 @@
       "label": "UUID",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "code",
       "norm_label": "uuid",
       "source_file": "",
       "source_location": ""
     },
     {
+      "id": "src_logic_entities_income_rationale_13",
+      "label": "Concrete financial record representing an income (positive cash flow). Inherits\u2026",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "Income",
+      "file_type": "rationale",
+      "norm_label": "concrete financial record representing an income (positive cash flow). inherits...",
+      "source_file": "src/logic/entities/income.py",
+      "source_location": "L13"
+    },
+    {
       "id": "tests_unit_test_financial_records_rationale_1",
       "label": "Unit tests for FinancialRecord, Income, and Expense entities.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "unit tests for financialrecord, income, and expense entities.",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1150,7 +1231,7 @@
       "label": "Tests verifying validation invariants on financial records.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "tests verifying validation invariants on financial records.",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1161,7 +1242,7 @@
       "label": "Tests ensuring FinancialRecord behaves as an abstract base class.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "tests ensuring financialrecord behaves as an abstract base class.",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1172,7 +1253,7 @@
       "label": "FinancialRecord is abstract and cannot be instantiated directly.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "financialrecord is abstract and cannot be instantiated directly.",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1183,7 +1264,7 @@
       "label": "Tests verifying Income entity behavior and signed amount.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "tests verifying income entity behavior and signed amount.",
       "source_file": "tests/unit/test_financial_records.py",
@@ -1194,25 +1275,25 @@
       "label": "Tests verifying Expense entity behavior and signed amount.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "file_type": "rationale",
       "norm_label": "tests verifying expense entity behavior and signed amount.",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L94"
     },
     {
-      "id": "src_logic_entities_user",
-      "label": "user.py",
+      "id": "tests_unit_test_user_category",
+      "label": "test_user_category.py",
       "_origin": "ast",
       "community": 2,
       "community_name": "User",
       "file_type": "code",
-      "norm_label": "user.py",
-      "source_file": "src/logic/entities/user.py",
+      "norm_label": "test_user_category.py",
+      "source_file": "tests/unit/test_user_category.py",
       "source_location": "L1"
     },
     {
-      "id": "src_logic_entities_user_py_datetime",
+      "id": "tests_unit_test_user_category_py_datetime",
       "label": "datetime",
       "_origin": "ast",
       "community": 2,
@@ -1223,7 +1304,18 @@
       "source_location": ""
     },
     {
-      "id": "src_logic_entities_user_py_uuid",
+      "id": "tests_unit_test_user_category_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_unit_test_user_category_py_uuid",
       "label": "UUID",
       "_origin": "ast",
       "community": 2,
@@ -1232,17 +1324,6 @@
       "norm_label": "uuid",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "src_logic_entities_user_rationale_1",
-      "label": "User Entity Module. Defines the root user entity for Smart Finance Manager.",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "rationale",
-      "norm_label": "user entity module. defines the root user entity for smart finance manager.",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L1"
     },
     {
       "id": "src_logic_entities_user_rationale_15",
@@ -1256,29 +1337,18 @@
       "source_location": "L15"
     },
     {
-      "id": "src_logic_entities_user_rationale_55",
-      "label": "Update the updated_at timestamp to the specified datetime or the current UTC\u2026",
+      "id": "tests_unit_test_user_category_rationale_1",
+      "label": "Unit tests for User and Category entities.",
       "_origin": "ast",
       "community": 2,
       "community_name": "User",
       "file_type": "rationale",
-      "norm_label": "update the updated_at timestamp to the specified datetime or the current utc...",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L55"
-    },
-    {
-      "id": "tests_unit_test_user_category_rationale_15",
-      "label": "Tests verifying User entity lifecycle and behavior.",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "User",
-      "file_type": "rationale",
-      "norm_label": "tests verifying user entity lifecycle and behavior.",
+      "norm_label": "unit tests for user and category entities.",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L15"
+      "source_location": "L1"
     },
     {
-      "id": "tests_unit_test_user_category_rationale_69",
+      "id": "tests_unit_test_user_category_rationale_127",
       "label": "Tests validating User domain invariants and error handling.",
       "_origin": "ast",
       "community": 2,
@@ -1286,7 +1356,18 @@
       "file_type": "rationale",
       "norm_label": "tests validating user domain invariants and error handling.",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L69"
+      "source_location": "L127"
+    },
+    {
+      "id": "tests_unit_test_user_category_rationale_30",
+      "label": "Tests verifying User entity lifecycle and behavior.",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "User",
+      "file_type": "rationale",
+      "norm_label": "tests verifying user entity lifecycle and behavior.",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L30"
     },
     {
       "id": "docs_architecture",
@@ -2212,42 +2293,6 @@
       "source_file": "README.md"
     },
     {
-      "id": "logic_entities",
-      "label": "logic_entities",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "logic_entities",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "pytest",
-      "label": "pytest",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "pytest",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "sys",
-      "label": "sys",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "sys",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "logic_entities_income",
       "label": "logic_entities_income",
       "_origin": "semantic",
@@ -2264,10 +2309,46 @@
       "label": "logic_entities_financial_record",
       "_origin": "semantic",
       "community": 11,
-      "community_name": "Income",
+      "community_name": "Expense",
       "external": true,
       "file_type": "concept",
       "norm_label": "logic_entities_financial_record",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "typing",
+      "label": "typing",
+      "_origin": "semantic",
+      "community": 12,
+      "community_name": "user.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "typing",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "datetime",
+      "label": "datetime",
+      "_origin": "semantic",
+      "community": 13,
+      "community_name": "datetime",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "datetime",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "uuid",
+      "label": "uuid",
+      "_origin": "semantic",
+      "community": 14,
+      "community_name": "uuid",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "uuid",
       "source_file": "",
       "type": "external"
     },
@@ -2276,7 +2357,7 @@
       "label": "decimal",
       "_origin": "semantic",
       "community": 16,
-      "community_name": "UUID",
+      "community_name": "Income",
       "external": true,
       "file_type": "concept",
       "norm_label": "decimal",
@@ -2284,14 +2365,38 @@
       "type": "external"
     },
     {
-      "id": "typing",
-      "label": "typing",
+      "id": "logic_entities",
+      "label": "logic_entities",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "Income",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "logic_entities",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "pytest",
+      "label": "pytest",
       "_origin": "semantic",
       "community": 2,
       "community_name": "User",
       "external": true,
       "file_type": "concept",
-      "norm_label": "typing",
+      "norm_label": "pytest",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "sys",
+      "label": "sys",
+      "_origin": "semantic",
+      "community": 2,
+      "community_name": "User",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sys",
       "source_file": "",
       "type": "external"
     },
@@ -2304,28 +2409,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "logic_entities_expense",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "datetime",
-      "label": "datetime",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "datetime",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "uuid",
-      "label": "uuid",
-      "community": 1,
-      "community_name": "test_user_category.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "uuid",
       "source_file": "",
       "type": "external"
     }
@@ -2496,7 +2579,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L61",
+      "source_location": "L56",
       "weight": 1.0
     },
     {
@@ -2508,7 +2591,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L44",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -2520,12 +2603,12 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L37",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
       "source": "tests_unit_test_financial_records_sample_category_id",
-      "target": "fixture",
+      "target": "tests_unit_test_financial_records_py_fixture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2537,7 +2620,7 @@
     },
     {
       "source": "tests_unit_test_financial_records_sample_datetime",
-      "target": "fixture",
+      "target": "tests_unit_test_financial_records_py_fixture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2549,7 +2632,7 @@
     },
     {
       "source": "tests_unit_test_financial_records_sample_user_id",
-      "target": "fixture",
+      "target": "tests_unit_test_financial_records_py_fixture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2569,6 +2652,42 @@
       "context": "decorator",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_created_at",
+      "target": "tests_unit_test_user_category_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_updated_at",
+      "target": "tests_unit_test_user_category_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_user_id",
+      "target": "tests_unit_test_user_category_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -2656,30 +2775,6 @@
       "weight": 1.0
     },
     {
-      "source": "src_logic_entities_user_user_init",
-      "target": "src_logic_entities_user_py_datetime",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "generic_arg",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_user_user_init",
-      "target": "src_logic_entities_user_py_uuid",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "generic_arg",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
       "source": "src_logic_entities_user_user_update_timestamp",
       "target": "src_logic_entities_user_py_datetime",
       "relation": "references",
@@ -2688,31 +2783,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_user_user_validate_datetimes",
-      "target": "src_logic_entities_user_py_datetime",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "generic_arg",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L40",
-      "weight": 1.0
-    },
-    {
-      "source": "src_logic_entities_user_user_validate_id",
-      "target": "src_logic_entities_user_py_uuid",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "generic_arg",
-      "source_file": "src/logic/entities/user.py",
-      "source_location": "L35",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -2844,7 +2915,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L108",
+      "source_location": "L199",
       "weight": 1.0
     },
     {
@@ -3125,7 +3196,7 @@
     },
     {
       "source": "tests_unit_test_user_category",
-      "target": "datetime",
+      "target": "tests_unit_test_user_category_py_datetime",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3137,7 +3208,7 @@
     },
     {
       "source": "tests_unit_test_user_category",
-      "target": "uuid",
+      "target": "tests_unit_test_user_category_py_uuid",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3181,6 +3252,54 @@
       "context": "parameter_type",
       "source_file": "src/logic/entities/financial_record.py",
       "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_user_user_init",
+      "target": "src_logic_entities_user_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_user_user_init",
+      "target": "src_logic_entities_user_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_user_user_validate_datetimes",
+      "target": "src_logic_entities_user_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_logic_entities_user_user_validate_id",
+      "target": "src_logic_entities_user_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/logic/entities/user.py",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -3484,6 +3603,258 @@
       "weight": 1.0
     },
     {
+      "source": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_with_missing_arguments",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_with_missing_arguments",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_create_user_success",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_create_user_success",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_update_timestamp_default",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_update_timestamp_default",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_update_timestamp_explicit",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_update_timestamp_explicit",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_user_equality_and_hash",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_user_repr",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_user_repr",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_created_at",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_created_at",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_updated_at",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_updated_at",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_invalid_user_id",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_invalid_type",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_invalid_type",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_prior_to_created_at",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_update_timestamp_prior_to_created_at",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuservalidation_test_reject_updated_at_prior_to_created_at",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
       "source": "src_logic_entities_expense_expense_signed_amount",
       "target": "src_logic_entities_expense_py_decimal",
       "relation": "references",
@@ -3553,6 +3924,42 @@
       "context": "return_type",
       "source_file": "tests/unit/test_financial_records.py",
       "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_created_at",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_updated_at",
+      "target": "tests_unit_test_user_category_py_datetime",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_sample_user_id",
+      "target": "tests_unit_test_user_category_py_uuid",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -4338,24 +4745,57 @@
     },
     {
       "source": "tests_unit_test_user_category",
-      "target": "tests_unit_test_user_category_testuserentity",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "tests_unit_test_user_category",
       "target": "tests_unit_test_user_category_testuservalidation",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L68",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category",
+      "target": "tests_unit_test_user_category_sample_user_id",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category",
+      "target": "tests_unit_test_user_category_sample_created_at",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category",
+      "target": "tests_unit_test_user_category_sample_updated_at",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category",
+      "target": "tests_unit_test_user_category_testuserentity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -4531,7 +4971,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L35",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -4542,7 +4982,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L40",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -4553,7 +4993,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L54",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -4564,7 +5004,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L66",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -4575,7 +5015,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L69",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -4586,7 +5026,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L74",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -4734,24 +5174,46 @@
     },
     {
       "source": "tests_unit_test_user_category_testuserentity",
-      "target": "tests_unit_test_user_category_testuserentity_test_create_user_with_defaults",
+      "target": "tests_unit_test_user_category_testuserentity_test_update_timestamp_explicit",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L17",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
       "source": "tests_unit_test_user_category_testuserentity",
-      "target": "tests_unit_test_user_category_testuserentity_test_create_user_with_explicit_values",
+      "target": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_without_required_arguments",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L24",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity",
+      "target": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_with_missing_arguments",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity",
+      "target": "tests_unit_test_user_category_testuserentity_test_create_user_success",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -4762,7 +5224,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L34",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -4773,7 +5235,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L46",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -4784,18 +5246,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "tests_unit_test_user_category_testuserentity",
-      "target": "tests_unit_test_user_category_testuserentity_test_update_timestamp_explicit",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L59",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -4806,7 +5257,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L71",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -4817,7 +5268,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L78",
+      "source_location": "L146",
       "weight": 1.0
     },
     {
@@ -4828,7 +5279,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L82",
+      "source_location": "L156",
       "weight": 1.0
     },
     {
@@ -4839,7 +5290,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L86",
+      "source_location": "L166",
       "weight": 1.0
     },
     {
@@ -4850,7 +5301,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L93",
+      "source_location": "L173",
       "weight": 1.0
     },
     {
@@ -4861,7 +5312,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L98",
+      "source_location": "L184",
       "weight": 1.0
     },
     {
@@ -5030,14 +5481,14 @@
       "weight": 1.0
     },
     {
-      "source": "src_logic_entities_user_rationale_55",
+      "source": "src_logic_entities_user_rationale_50",
       "target": "src_logic_entities_user_user_update_timestamp",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L55",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -5151,25 +5602,25 @@
       "weight": 1.0
     },
     {
-      "source": "tests_unit_test_user_category_rationale_15",
-      "target": "tests_unit_test_user_category_testuserentity",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "tests_unit_test_user_category_rationale_69",
+      "source": "tests_unit_test_user_category_rationale_127",
       "target": "tests_unit_test_user_category_testuservalidation",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L69",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_rationale_30",
+      "target": "tests_unit_test_user_category_testuserentity",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -5329,7 +5780,7 @@
       "weight": 1.0
     },
     {
-      "source": "tests_unit_test_user_category_testuserentity_test_create_user_with_defaults",
+      "source": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_with_missing_arguments",
       "target": "src_logic_entities_user_user",
       "relation": "calls",
       "_origin": "ast",
@@ -5337,11 +5788,11 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L18",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
-      "source": "tests_unit_test_user_category_testuserentity_test_create_user_with_explicit_values",
+      "source": "tests_unit_test_user_category_testuserentity_test_cannot_instantiate_user_without_required_arguments",
       "target": "src_logic_entities_user_user",
       "relation": "calls",
       "_origin": "ast",
@@ -5349,7 +5800,19 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L29",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_unit_test_user_category_testuserentity_test_create_user_success",
+      "target": "src_logic_entities_user_user",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "tests/unit/test_user_category.py",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -5361,7 +5824,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L53",
+      "source_location": "L102",
       "weight": 1.0
     },
     {
@@ -5373,7 +5836,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L61",
+      "source_location": "L115",
       "weight": 1.0
     },
     {
@@ -5385,7 +5848,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L36",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -5397,7 +5860,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L48",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -5409,7 +5872,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L80",
+      "source_location": "L150",
       "weight": 1.0
     },
     {
@@ -5421,7 +5884,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L84",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -5433,7 +5896,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L73",
+      "source_location": "L133",
       "weight": 1.0
     },
     {
@@ -5445,7 +5908,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L94",
+      "source_location": "L176",
       "weight": 1.0
     },
     {
@@ -5457,7 +5920,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L100",
+      "source_location": "L187",
       "weight": 1.0
     },
     {
@@ -5469,7 +5932,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L91",
+      "source_location": "L171",
       "weight": 1.0
     },
     {
@@ -5731,7 +6194,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "source_file": "src/logic/entities/user.py",
-      "source_location": "L37",
+      "source_location": "L36",
       "weight": 0.8
     },
     {
@@ -5775,7 +6238,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "source_file": "tests/unit/test_user_category.py",
-      "source_location": "L72",
+      "source_location": "L132",
       "weight": 0.8
     },
     {
@@ -6038,5 +6501,5 @@
       "source_file": "Docs/DataBase.md"
     }
   ],
-  "built_at_commit": "6b6ee876db3d2c43c2a4d0f87b077d20e1ba07f1"
+  "built_at_commit": "06ad798bee8f15a9454e96af8f827df4c561b132"
 }

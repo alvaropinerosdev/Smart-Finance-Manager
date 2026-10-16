@@ -6,7 +6,7 @@ Defines the root user entity for Smart Finance Manager.
 
 from datetime import datetime, timezone
 from typing import Optional
-from uuid import UUID, uuid4
+from uuid import UUID
 
 from exceptions import DomainValidationError
 
@@ -19,36 +19,31 @@ class User:
 
     def __init__(
         self,
-        id: Optional[UUID] = None,
-        created_at: Optional[datetime] = None,
-        updated_at: Optional[datetime] = None,
+        id: UUID,
+        created_at: datetime,
+        updated_at: datetime,
     ) -> None:
         self._validate_id(id)
         self._validate_datetimes(created_at, updated_at)
 
-        now = datetime.now(timezone.utc)
-        self.id: UUID = id if id is not None else uuid4()
-        self.created_at: datetime = created_at if created_at is not None else now
-        self.updated_at: datetime = updated_at if updated_at is not None else now
+        self.id: UUID = id
+        self.created_at: datetime = created_at
+        self.updated_at: datetime = updated_at
 
     @staticmethod
-    def _validate_id(user_id: Optional[UUID]) -> None:
-        if user_id is not None and not isinstance(user_id, UUID):
+    def _validate_id(user_id: UUID) -> None:
+        if not isinstance(user_id, UUID):
             raise DomainValidationError("User id must be a valid UUID instance.")
 
     @staticmethod
     def _validate_datetimes(
-        created_at: Optional[datetime], updated_at: Optional[datetime]
+        created_at: datetime, updated_at: datetime
     ) -> None:
-        if created_at is not None and not isinstance(created_at, datetime):
+        if not isinstance(created_at, datetime):
             raise DomainValidationError("created_at must be a valid datetime instance.")
-        if updated_at is not None and not isinstance(updated_at, datetime):
+        if not isinstance(updated_at, datetime):
             raise DomainValidationError("updated_at must be a valid datetime instance.")
-        if (
-            created_at is not None
-            and updated_at is not None
-            and updated_at < created_at
-        ):
+        if updated_at < created_at:
             raise DomainValidationError("updated_at cannot be prior to created_at.")
 
     def update_timestamp(self, dt: Optional[datetime] = None) -> None:
@@ -73,4 +68,3 @@ class User:
 
     def __hash__(self) -> int:
         return hash(self.id)
-
